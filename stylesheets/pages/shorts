@@ -1,0 +1,51 @@
+.mov-main {
+  background-color: #e5e5e5;
+  padding: 4px;
+  margin: 8px 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.mov-main:hover {
+  background-color: #928580;
+  color: #EEEEEE; }
+
+.mov-info {
+  text-align: center;
+  padding: 2px;
+  margin: 2px; }
+
+.mov-titre {
+  border-radius: 3px; }
+
+.mov-real {
+  margin-top: 4px;
+  padding-top: 10px; }
+
+.mov-img {
+  position: relative;
+  overflow: hidden;
+  text-align: center; }
+
+.mov-desc {
+  text-align: center;
+  margin: 4px; }
+
+.mov-res {
+  text-align: center;
+  margin: 4px; }
+
+.mov-res li {
+  list-style: none; }
+
+@media screen and (max-width: 768px) {
+  .mov-main {
+    display: block; }
+  .mov-res li {
+    display: inline;
+    padding: 0px 10px; } }
+
+.black {
+  background-color: black; }

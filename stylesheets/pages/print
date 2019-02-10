@@ -1,0 +1,90 @@
+.white {
+  background-color: #fff; }
+
+.p-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px 8px 0px;
+  background-color: #fff; }
+
+.cont-thumbs {
+  margin: 0px 4px;
+  text-align: center; }
+  .cont-thumbs h4 {
+    padding: 8px 0px; }
+  .cont-thumbs p {
+    border-radius: 4px;
+    font-size: 0.9em;
+    padding: 8px 8px;
+    text-align: left; }
+
+.p-texte {
+  text-align: left;
+  padding: 0px 0px 8px 25px;
+  width: 60%; }
+
+.p-titre-section {
+  background-color: #c8c8c8;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0px 8px 0px 8px; }
+
+.p-info-barre {
+  padding: 10px 8px 10px 20px; }
+
+.p-contact-button {
+  padding: 10px; }
+
+a {
+  color: black;
+  padding: 4px 2px; }
+
+a:hover {
+  text-decoration: none;
+  color: purple; }
+
+.box {
+  border: 1px red solid;
+  padding: 5px; }
+
+.thumb-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.sec-print {
+  height: 70vh;
+  background: url("../images/bg-print2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media only screen and (min-width: 320px) {
+  .sec-print {
+    height: 30vh;
+    background: url("../images/bg-print2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 4px; } }
+
+@media only screen and (min-width: 768px) {
+  .sec-print {
+    height: 40vh;
+    background: url("../images/bg-print2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 4px; } }
+
+@media only screen and (min-width: 768px) {
+  .sec-print {
+    background: url("../images/bg-print2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 4px;
+    height: 100vh; } }

@@ -1,0 +1,18 @@
+.dev-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: no-wrap;
+  padding: 5px; }
+
+.aered {
+  padding: 35px 0px 35px 0px; }
+
+.ico {
+  position: relative;
+  right: 40px; }
+
+.hidden {
+  display: none; }
+
+.show {
+  display: block; }

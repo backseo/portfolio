@@ -1,0 +1,30 @@
+.g-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto; }
+
+.imgbox-black {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  margin: 5px 5px 5px 5px;
+  padding: 4px;
+  border-radius: 4px; }
+
+.imgbox-white {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 4px; }
+
+.g-title {
+  display: block;
+  text-align: center;
+  margin: 8px 0px; }
+
+.g-img {
+  margin: 4px auto; }

@@ -1,0 +1,29 @@
+.sec-illust {
+  height: 90vh;
+  background: url("../images/bg-illustra.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.i-container {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  flex-wrap: wrap;
+  padding: 5px; }
+
+.img {
+  position: relative;
+  transition: all 0.5s ease 0s; }
+
+.img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); }
+
+@media only screen and (max-width: 720px) {
+  .sec-illust {
+    height: 20vh;
+    background: url("../images/bg-illustra.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 4px; } }
