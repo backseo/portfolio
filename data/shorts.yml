@@ -1,0 +1,69 @@
+- title: 'Quad 2018'
+  slug: 'Modelisation du véhicule et de son pilote. Character rigging. Rendu Mental Ray.'
+  realisation: 2018
+  durée: '50 secondes'
+  img_link: 'images/quad_short.png'
+  video_link: 'https://www.youtube.com/watch?v=r_YEqpc8MLw'
+- title : 'Babymech'
+  slug: "Animation d'un Mecha biped avec gestion de layers - Compositing  : After Effect."
+  realisation: 2016
+  durée: '27 secondes'
+  img_link: 'images/bbm1.gif'
+  video_link: 'https://www.youtube.com/watch?v=BB9Ga0CEgKQ'
+- title : "Mr Propre"
+  slug: 'Process animation course de personnage avec CAT (Autodesk).'
+  realisation: 2012
+  durée: '09 secondes'
+  img_link: 'images/mrpropre.gif'
+  video_link: 'shorts/mrpropre.mp4'
+- title : "T'emballes pas !"
+  slug: 'Modélisation et animation de personnage avec architecture 3dsMax Biped, sur fond de Basket-ball.'
+  realisation: 2003
+  durée: '2.14 minutes'
+  img_link: 'images/alyen11.gif'
+  video_link: 'https://www.youtube.com/watch?v=adh9y6P6R-o'
+- title : "Bureau"
+  slug: 'Un personnage quitte le monde virtuel.'
+  realisation: 2003
+  durée: '18 secondes'
+  img_link: 'images/bureau1231.jpg'
+  video_link: '../shorts/bureau.mp4'
+- title : 'kilogo'
+  slug: 'Teaser agence de communication.'
+  realisation: 2004
+  durée: '12 secondes'
+  img_link: 'images/kilo.gif'
+  video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
+- title : "From sky"
+  slug: 'Intro basée sur 1 idée de présenter différents métiers <br>au plus jeunes grâce au film animé.'
+  realisation: 2004
+  durée: '20 secondes'
+  img_link: 'images/fromsky1.jpg'
+  video_link: '../shorts/fromsky.mp4'
+
+# - title : "Jardin"
+#   slug: 'Ne jouez pas au foot près de la fenêtre ! <br> Test de collision et de corps souples donnant lieux à une petite animation.'
+#   realisation: 2003
+#   durée: '34 secondes'
+#   img_link: 'images/garden.gif'
+#   video_link: '#'
+# - title : "Ballade"
+#   slug: 'Une animation de petite voiture. Path-follow & Projection de particules.'
+#   realisation: 2002
+#   durée: '63 secondes'
+#   img_link: 'images/ballad11.gif'
+#   video_link: '#'
+# - title : "Water World"
+#   slug: 'Quelques bestioles dans un monde sous-marin imaginaire.'
+#   realisation: 2000
+#   durée: '32 secondes'
+#   img_link: 'images/watworl11.gif'
+#   video_link: '#'
+# - title : "Océan"
+#   slug: 'Quelques mamifères marins et des effets de lumières et projection ombres.'
+#   realisation: 1999
+#   durée: '32 secondes'
+#   img_link: 'images/ocean11.gif'
+#   video_link: '#'
+
+

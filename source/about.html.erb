@@ -1,0 +1,51 @@
+---
+title: Le Wagon - Middleman - About
+---
+
+
+
+<div id="about">
+  <div class="about-content">
+    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline">
+      <% data.users.each do |user| %>
+        <li>
+          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+          <% end %>
+          <h2><%= user.name %></h2>
+          <p>
+            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
+              <i class="fa fa-github"></i> <%= user.github_nickname %>
+            <% end %>
+          </p>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+
+
+<div class="life">
+  <div class="life-cell">
+    <div class="bloc-text">
+      <div class="life-data">
+      <h3>Illustration</h3>
+      <p>Il a toujours fait parti de ma vie. Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant un cours permettais une gymnastique du cerveau excellente pour la concentration et le rétention d'information. </p>
+      </div>
+    </div>
+    <div class="bloc-text">
+      <div class="life-data">
+        <h3>Musique</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab minima excepturi, fuga quia id odio eligendi, harum suscipit quae magni impedit fugiat molestiae assumenda exercitationem corrupti ducimus laboriosam cdivpa alias.</p>
+      </div>
+    </div>
+    <div class="bloc-text">
+      <div class="life-data">
+      <h3>Plongée sous-marine</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat inventore, quasi itaque nostrum porro rerum ducimus dicta quibusdam aperiam laboriosam officiis, voluptate mollitia qui dolorem ipsa quas harum, consequatur et.</p>
+      </div>
+    </div>
+  </div>
+</div>

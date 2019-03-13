@@ -1,0 +1,33 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css?family=Acme|Roboto+Condensed:300i');
+
+// Define fonts for body and headers
+$headers-font: "Acme", "sans-serif";
+$body-font: "Roboto Condensed", "sans-serif";
+
+$font-size: 1rem;
+// To use a font file (.woff) uncomment following lines
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
+
+
+html body {
+background-color: white;
+margin: 0;
+padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headers-font;
+}
+
+p {
+  font-family: $body-font;
+  text-indent: 2em;
+}

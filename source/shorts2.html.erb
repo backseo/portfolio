@@ -1,0 +1,61 @@
+<div data-aos="fade-up">
+  <div class="p-container">
+    <div class="text-center hidden-sm hidden-xs">
+      <%= image_tag "ico-shorts.png" %>
+    </div>
+    <div class="s-texte">
+      <h1>Animation 3D / Motion Design</h1>
+      <p>Dans cette section je vous présente quelques séquences animées.<br> Reflets des concepts abordés en modélisation, mapping (textures), rigging (animation), éclairages, caméras, particules, rendu mais également du compositing (montage vidéo), motion Design, et de la musique et du bruitage.<br>Pour teaser d'entreprise, courts-métrages, Jinggle TV, ou simple bannière.
+      </p>
+    </div>
+      <div class="text-center hidden-sm hidden-xs">
+        <h3>Domaine d'expertise</h3>
+        <%= image_tag "ico-3dsmax.png" %>
+        <%= image_tag "ico-photoshop.png" %>
+        <%= image_tag "ico-premiere.png"%>
+        <%= image_tag "ico-afterfx.png", alt: "alttext" %>
+      </div>
+  </div>
+</div>
+<p></p>
+
+  <div class="container">
+  <% data.shorts.each do |short| %>
+  <div class="mov-main data-aos="zoom-in" data-aos-delay="50"">
+    <div class="mov-info">
+      <div class="mov-titre"><h4><%= short.title %></h4></div>
+      <div class="mov-real"><p>Réalisation : <%= short.realisation %><br>Durée : <%= short.durée %></p></div>
+    </div>
+    <div class="mov-img">
+      <a href="<%= short.video_link %>" target="_blank"><img src="<%= short.img_link %>"></a>
+    </div>
+    <div class="mov-desc"><p><%= short.slug %></p></div>
+    <div class="mov-res">
+      <ul class="list-inline hidden-xs">
+        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+    <% end %>
+</div>
+
+
+<div class="white text-center aered"><%= image_tag "stars.png" %></div>
+
+<div class="p-container white">
+  <div class="p-info-barre">
+    <h4>Ma proposition :</h4>
+    <p>1- Je réceptionne toutes les références nécessaires, le cahier des charges.<br>
+      2- Etablissement d'un devis au forfait journalier et selon les contraintes. <br />
+      3- Dès réception de l'acompte, le projet est mis en production.<br />
+      4- Nous suivons ensemble, au fur et à mesure, l'adéquation dans l'avancement du projet.<br />
+      5- Au réglement du solde, le projet est livré dans sa totalité.</p>
+  </div>
+  <div class="p-contact-button"><a href="contact.html"><button class="btn btn-success btn-lg">Me faire part d'un projet. <br>Demander un devis.</button></a></div>
+</div>
+
+<%= partial 'layouts/components/apt' %>
+<p></p>
+

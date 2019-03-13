@@ -1,0 +1,141 @@
+.a-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 10px 5px 10px;
+  background-color: #fff;
+  transition: all ease-in-out 500ms;
+}
+
+.x-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px 8px 0px;
+  background-color: #fff;
+  border: 1px black solid;
+}
+
+.a-textbox {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  text-align: center;
+}
+
+.a-imgbox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: white;
+}
+.a-imgbox2 {
+  padding: 5px;
+  background-color: $grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.img {
+  margin: 5px auto;
+}
+
+.a-texte {
+  padding: 0.6em;
+}
+
+.a-texte h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background: #ccc;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.showanim {
+  width: 250px;
+  height:150px;
+  margin: 0 auto;
+  text-align: center;
+  background: gray;
+}
+
+.a-wrapper-titles {
+  margin: 0;
+  padding: 0;
+}
+
+.a-wrapper-titles ul {
+  position: relative;
+  padding: 10px 5px;
+  background: #000000;
+}
+
+.a-wrapper-titles li {
+  margin: 4px 0px;
+  padding:0px 60px;
+  color: gray;
+  border-bottom: 1px rgba(255,255,255,0.1) solid;
+}
+
+.a-wrapper-titles h2{
+  position: relative;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+}
+
+.a-wrapper-titles h2:hover {
+  color: #fff;
+  transition: all ease-in-out 200ms;
+}
+
+.a-wrapper-titles h2:before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-left: 0px gray solid;
+  border-right: 5px gray solid;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  left: -50px;
+  bottom: 6px;
+  transition: all ease-in-out 300ms;
+}
+
+.a-wrapper-titles h2:hover:before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-left: 7px #000000 solid;
+  border-right: 0px gray solid;
+  border-top: 7px #000000 solid;
+  border-bottom: 7px #000000 solid;
+  background: rgba(255,255,255,039);
+  left: -30px;
+  bottom: 6px;
+  transition: all ease-in-out 300ms;
+}
+
+.hider {
+  display: none;
+}
+
+// @media (max-width: 960px) {
+//     .a-container {
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     padding: 20px 0px 0px 0px;
+//     background-color: #fff;
+//     transition: all ease-in-out 500ms;
+//   }
+
+// }

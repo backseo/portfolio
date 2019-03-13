@@ -1,0 +1,124 @@
+.sec-illust {
+  height: 60vh;
+  background: url('../images/bg-illustra.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.i-container {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.i-texte {
+  text-align: center;
+  padding: 0px 25px 8px 25px;
+  width: 60%;
+  border-radius: 5px;
+  background: #F3F3F3;
+  transition: all ease-in-out 500ms;
+}
+
+#tube {
+  border-radius: 4px;
+  margin-left: 3em;
+  }
+
+.img {
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+
+.img:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.2);
+  opacity: 1;
+  transition: all 0.5s ease 100ms;
+}
+.img:hover:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  bottom: 100%;
+  width: 100%;
+  height: 1px;
+  background: white;
+  opacity: 0.5;
+  transition: all 0.5s ease 100ms;
+}
+
+/* texte apercu*/
+.img:after {
+  position: absolute;
+  content:"";
+  right: 200px;
+  bottom: 4px;
+  font-size: 1em;
+  font-weight: 900;
+  color: rgba(255,255,255,0.5);
+  opacity: 0;
+}
+.img:hover:after {
+  position: absolute;
+  content:"En voir +";
+  right: 8px;
+  bottom: 4px;
+  font-size: 1em;
+  font-weight: 900;
+  color: rgba(255,255,255,1);
+  opacity: 1;
+  transition: all 0.5s ease 100ms;
+}
+
+.img:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+
+.illust-inside {
+  position: absolu;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  margin-top: 200px;
+  max-width: 300px;
+}
+
+
+.spacediv {
+  padding-bottom: 100px;
+}
+
+.icontent {
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  display: block;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 720px) {
+  .sec-illust {
+    height: 20vh;
+    background: url('../images/bg-illustra.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 4px;
+  }
+}

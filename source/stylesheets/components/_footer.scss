@@ -1,0 +1,34 @@
+.foot-up {
+  background-image: url('../images/fx-up.png');
+  height: 167px;
+  width: 100%;
+}
+
+.myfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: black;
+}
+
+.list-menu {
+  color: white;
+  margin: 8px 2px 8px 2px;
+}
+
+.list-menu a {
+  color: white;
+  opacity: 0.5;
+  padding: 0px 10px;
+}
+.list-menu a:hover {
+  color: red;
+  opacity: 1;
+}
+
+.centree {
+  margin: 0 auto;
+}
+
+
