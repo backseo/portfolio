@@ -20,23 +20,21 @@
   background: rgba(gray,0);
   margin: 0px 4px;
   text-align: center;
+  padding: 18px;
+}
 
-  h4 {
-    padding: 8px 0px;
-  }
-  p {
-    border-radius: 4px;
+  .cont-thumbs p {
     font-size: 0.9em;
     padding: 8px 8px;
     text-align: left;
   }
-}
 
 .p-texte {
   text-align: center;
-  padding: 0px 25px 8px 25px;
-  width: 60%;
+  padding: 0px 15px 8px 15px;
+  width: 40%;
   border-radius: 5px;
+  background: $gray-gradient;
   transition: all ease-in-out 500ms;
 }
 
@@ -46,6 +44,11 @@
   text-align: center;
   padding: 0px 8px 0px 8px;
 }
+
+.gradient {
+  background: $gray-gradient;
+}
+
 
 .p-info-barre {
   background: $light-gray;
@@ -81,14 +84,14 @@ a:hover {
 }
 
 .sec-print {
-  height: 70vh;
+  height: 60vh;
   background: url('../images/bg-print2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
   .sec-print {
   height: 30vh;
   background: url('../images/bg-print2.jpg');
@@ -100,7 +103,7 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .sec-print {
   height: 40vh;
   background: url('../images/bg-print2.jpg');
@@ -110,22 +113,16 @@ a:hover {
   margin: 4px;
   border-radius: 4px;
   }
-}
 
-@media only screen and (min-width: 768px) {
-  .sec-print {
-  background: url('../images/bg-print2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 4px;
-  border-radius: 4px;
-  height: 70vh;
+  .p-texte {
+    text-align: center;
+    width: 90%;
   }
+
 }
 
-.p-texte h1 strong {
-  font-size:  1em;
-}
+
+
+
 
 

@@ -6,12 +6,12 @@
   justify-content: space-around;
   z-index: 100;
   background: $gray-gradient;
-  height: 60px;
+  height: 90px;
   width: 100%;
 }
 
 .nav-offset-top {
-  padding-top: 60px;
+  padding-top: 90px;
 }
 
 /* Logo */
@@ -56,18 +56,19 @@
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
+  background: $sky-gradient;
 }
 .navbar-ficel-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: $gray !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
 }
 .navbar-ficel-dropdown-menu li > a:hover {
-  background: #eee !important;
-  color: black !important;
+  background: $gray-gradient !important;
+  color: $white !important;
 }
 .navbar-ficel-dropdown-menu:before {
   content: ' ';

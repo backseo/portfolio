@@ -11,7 +11,7 @@
 
 .ico {
   position: relative;
-  right: 40px;
+
 }
 
 .hidden {
@@ -30,8 +30,10 @@
 .dev-texte {
   position: relative;
   text-align: center;
-  margin: 0px 0px 2px 4px;
+  padding: 0 8px 2px 8px;
   min-width: 33%;
+  background: $gray-gradient;
+  border-radius: 5px;
 }
 
 .dark {
@@ -48,6 +50,10 @@
   overflow: hidden;
   border-radius: 3px;
 }
-// @media only screen and (max-width: 720px) {
 
-// }
+
+@media only screen and (max-width: 768px) {
+  .dev-texte h1 {
+    font-size: 2rem;
+  }
+}
