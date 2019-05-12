@@ -1,3 +1,4 @@
+
 <div data-aos="fade-up">
   <div class="p-container">
     <div class="text-center hidden-sm hidden-xs">
@@ -10,10 +11,9 @@
     </div>
       <div class="text-center hidden-sm hidden-xs">
         <h3>Domaine d'expertise</h3>
-        <%= image_tag "ico-3dsmax.png" %>
-        <%= image_tag "ico-photoshop.png" %>
-        <%= image_tag "ico-premiere.png"%>
-        <%= image_tag "ico-afterfx.png", alt: "alttext" %>
+        <%= image_tag "ico-3dsmax.png", height: 80 %>
+        <%= image_tag "ico-premiere.png", height: 80 %>
+        <%= image_tag "ico-afterfx.png", height: 80 %>
       </div>
   </div>
 </div>
@@ -21,7 +21,7 @@
 
   <div class="container">
   <% data.shorts.each do |short| %>
-  <div class="mov-main data-aos="zoom-in" data-aos-delay="50"">
+  <div class="mov-main" data-aos="zoom-in" data-aos-delay="50">
     <div class="mov-info">
       <div class="mov-titre"><h4><%= short.title %></h4></div>
       <div class="mov-real"><p>Réalisation : <%= short.realisation %><br>Durée : <%= short.durée %></p></div>

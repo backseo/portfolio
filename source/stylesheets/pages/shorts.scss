@@ -4,11 +4,11 @@
   padding: 0px 25px 8px 25px;
   width: 60%;
   border-radius: 5px;
-  background: #F3F3F3;
+  background: $gray-gradient;
 }
 
 .mov-main {
-  background-color: #e5e5e5;
+  background: $grey;
   padding: 4px;
   margin: 8px 8px;
   border-radius: 4px;
@@ -20,9 +20,10 @@
 }
 
 .mov-main:hover {
-  background-color: #928580;
-  color: #EEEEEE;
-  transition: all ease-in-out 100ms;
+  background: $darker-grey;
+  color: black;
+  transition: all ease-in-out 400ms;
+  box-shadow: 2px 2px 2px;
 }
 
 .mov-info {

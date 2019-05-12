@@ -1,26 +1,38 @@
+
 <div data-aos="fade-up">
-  <div class="x-container">
-    <div class="text-center hidden-xs">
+  <div class="title-wrap">
+    <div class="ico-title hidden-xs">
       <%= image_tag "ico-3d.png" %>
     </div>
     <div class="a-texte">
-      <h1>Modélisation 3D</h1>
+      <h2>Modélisation 3D</h2>
       <p>Plus de 25 années d'experience personnelle en modélisation et animation 3D.<br>
-        Voici quelques images issues de mes projets et qui reflètent mes travaux, recherches, etc.<br>
       </p>
     </div>
     <div class="text-center hidden-sm hidden-xs">
-      <h3>Domaine d'expertise</h3>
-      <%= image_tag "ico-3dsmax.png", alt: "3dsMax" %>
-      <%= image_tag "ico-mudbox.png", alt: "Mudbox" %>
-      <%= image_tag "ico-photoshop.png", alt: "Photoshop" %>
+      <h4>Domaine d'expertise</h4>
+      <%= image_tag "ico-3dsmax.png", alt: "3dsMax", height:60 %>
+      <%= image_tag "ico-mudbox.png", alt: "Mudbox", height:60 %>
+      <%= image_tag "ico-photoshop.png", alt: "Photoshop", height:60 %>
     </div>
   </div>
 </div>
 
+<div class="propo-container">
+  <div class="p-info-barre">
+    <h4>Ma proposition :</h4>
+    <p>1- Après notre premier contact, je réceptionne toutes les références, le cahier des charges.<br>
+      2- Etablissement d'un devis en fonction de la charge de travail. <br />
+      3- Dès réception de l'acompte (30%), le projet est mis en production.<br />
+      4- Nous suivons, ensemble, au fur et à mesure, l'avancement du projet.<br />
+      5- Au réglement du solde, le projet est livré dans sa totalité.</p>
+  </div>
+  <div class="p-contact-button"><a href="contact.html"><button class="btn btn-success btn-lg">Poser une question.<br>Me faire part d'un projet. <br>Demander un devis.</button></a></div>
+</div>
+
 <section class="a-wrapper-titles">
   <ul>
-    <li><h2>Modelisation de personnages</h2></li>
+    <li><h2>Personnages</h2></li>
     <div class="a-container">
       <div class="img">
         <a href="images/model-a.jpg" data-lightbox="perso" data-title="Model féminin, only quads. Go to next ->"><%= image_tag "model1.jpg"%></a>
@@ -151,17 +163,7 @@
   </ul>
 </section>
 
-<div class="a-container white">
-  <div class="p-info-barre">
-    <h4>Ma proposition :</h4>
-    <p>1- Réception de toutes les références nécessaires, du cahier des charges.<br>
-      2- Etablissement d'un devis. <br />
-      3- Dès réception de l'acompte, le projet est mis en production.<br />
-      4- Nous suivons ensemble au fur et à mesure, l'avancement du projet.<br />
-      5- Au réglement du solde, le projet est livré dans sa totalité.</p>
-  </div>
-  <div class="p-contact-button"><a href="contact.html"><button class="btn btn-success btn-lg">Me faire part d'un projet. <br>Demander un devis.</button></a></div>
-</div>
+
 
 <%= partial 'layouts/components/apt' %>
 

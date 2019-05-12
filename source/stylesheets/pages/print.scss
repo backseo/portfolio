@@ -37,7 +37,6 @@
   padding: 0px 25px 8px 25px;
   width: 60%;
   border-radius: 5px;
-  background: #F3F3F3;
   transition: all ease-in-out 500ms;
 }
 
@@ -49,6 +48,8 @@
 }
 
 .p-info-barre {
+  background: $light-gray;
+  border-radius: 4px;
   padding: 10px 8px 10px 20px;
 }
 

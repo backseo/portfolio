@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="aos/aos.scss" />
   </head>
   <body>
-
       <%= partial 'layouts/components/navbar' %>
+      <div class="nav-offset-top"></div>
       <%= yield %>
       <div class="foot-up"></div>
       <%= partial 'layouts/components/footer' %>
-
     <!-- stellar on top of jquery -->
     <script>$(window).stellar()</script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

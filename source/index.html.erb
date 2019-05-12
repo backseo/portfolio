@@ -1,4 +1,4 @@
-<section class="sec-banner" data-stellar-background-ratio="1.5" data-stellar-vertical-offset="70">
+<section class="sec-banner" data-stellar-background-ratio="1.5">
   <%= partial 'layouts/components/banner'  %>
 </section>
 
@@ -6,7 +6,7 @@
   <%= partial 'layouts/components/apt' %>
 </section>
 
-<section class="sec-bg-middle  hidden-xs" data-stellar-background-ratio="0.8">
+<section class="sec-bg-middle hidden-xs" data-stellar-background-ratio="0.8">
   <h2>Faites ce que vous croyez devoir faire, et croyez en ce que vous faites. <br>
     Tout le reste n'est qu'une perte de temps et d'énergie !</h2>
   <h3>NISARGADATTA.</h3>
@@ -16,20 +16,22 @@
   <div class="row">
     <div class="col-md-4 col-xs-12">
       <div class="text-center">
-      <h3>Pour échanger :</h3>
-      <a href="https://go.skype.com/skype.download" target="_blank"><%= image_tag "ico-skype.png" %></a>
-      <a href="#"><%= image_tag "ico-facebook.png" %></a>
+      <h3>Pour échanger :
+        <a href="https://go.skype.com/skype.download" target="_blank">
+        <%= image_tag "ico-skype.png", height:60 %></a>
+        <a href="#"><%= image_tag "ico-facebook.png", height:60 %></a>
+        </h3>
       </div>
     </div>
     <div class="col-md-4 col-xs-12 text-center">
       <h3>Pour collaborer :
         <a href="https://github.com/" target="_blank">
-          <%= image_tag "ico-github.png" %></a>
+          <%= image_tag "ico-github.png", height:60 %></a>
       </h3>
     </div>
     <div class="col-md-4 col-xs-12 text-center">
       <h3>Me contacter :
-        <a href="mailto:sc21417@gmail.com"><%= image_tag "guitare.gif", :class => "avatar-style" %></a>
+        <a href="mailto:sc21417@gmail.com"><%= image_tag "guitare.gif", height:60 %></a>
       </h3>
     </div>
   </div>

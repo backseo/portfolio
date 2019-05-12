@@ -1,10 +1,18 @@
 .citation {
   background-color: $light-gray;
   margin: 0 auto;
-  padding: 10px 0px 25px 0px;
+  padding: 10px 0px;
   text-align: center;
   font-family: $headers-font;
   font-size: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .citation {
+    font-size: 1.4rem;
+  }
+}
+
+
 
 

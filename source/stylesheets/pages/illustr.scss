@@ -19,7 +19,6 @@
   padding: 0px 25px 8px 25px;
   width: 60%;
   border-radius: 5px;
-  background: #F3F3F3;
   transition: all ease-in-out 500ms;
 }
 
@@ -85,7 +84,6 @@
   z-index: 10;
 }
 
-
 .illust-inside {
   position: absolu;
   background-color: red;
@@ -95,7 +93,6 @@
   margin-top: 200px;
   max-width: 300px;
 }
-
 
 .spacediv {
   padding-bottom: 100px;
@@ -121,4 +118,11 @@
     margin: 4px;
     border-radius: 4px;
   }
+
+  .i-texte {
+    width: 90%;
+    padding: 0px 15px 8px 15px;
+
+  }
+
 }

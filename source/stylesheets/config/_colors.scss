@@ -1,13 +1,24 @@
 // Define variables for your color scheme
 
 // For example:
-$grey: #F3F3F3;
-$darker-grey: #e5e5e5;
+$white: #fff;
+
 
 $red: #d8d8d8;
 $blue: #469AE0;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
+
 $gray: #000000;
 $light-gray: #F4F4F4;
+$grey: #F3F3F3;
+$darker-grey: #e5e5e5;
+
+$gray-gradient: linear-gradient(165deg,
+  rgba(192,192,192,0.9) 0%,
+  rgba(128,128,128,1) 100%);
+
+$sky-gradient: linear-gradient(165deg,
+  rgba(180,180,255,0.9) 0%,
+  rgba(100,100,255,1) 100%);
