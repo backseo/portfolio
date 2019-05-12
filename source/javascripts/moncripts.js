@@ -19,8 +19,13 @@ $(document).ready(function() {
 });
 
 
-
-
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 90) {
+    $('.navbar-ficel').css("height", 60);
+  } else {
+    $('.navbar-ficel').css("height", 90);
+  }
+});
 
 
 

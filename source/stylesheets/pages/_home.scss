@@ -25,25 +25,28 @@ section.sec-skills {
 }
 
 section.sec-bg-middle {
-  height: 400px;
+  height: 70vh;
   background: url('../images/bg_04.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  & h2 {
-    position: relative;
-    top: 200px;
-    text-align: center;
-    color: white;
   }
-  & h3 {
+
+  .sec-bg-middle h2 {
     position: relative;
     top: 250px;
-    left: 300px;
     text-align: center;
     color: white;
   }
-}
+
+  .sec-bg-middle h3 {
+    position: relative;
+    top: 350px;
+    text-align: right;
+    right: 80px;
+    color: white;
+  }
+
 
 section.sec-down {
   background-color: #262626;

@@ -1,8 +1,10 @@
 .dev-container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: no-wrap;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
 .aered {
@@ -27,13 +29,16 @@
   background-color: #fff;
 }
 
-.dev-texte {
+.dev-title {
   position: relative;
   text-align: center;
-  padding: 0 8px 2px 8px;
+  padding: 0px 8px 8px 8px;
   min-width: 33%;
   background: $gray-gradient;
-  border-radius: 5px;
+  border-radius: 4px;
+  & h1 {
+  font-family: $body-font;
+  }
 }
 
 .dark {

@@ -8,6 +8,7 @@
   background: $gray-gradient;
   height: 90px;
   width: 100%;
+  transition: all ease-in-out 700ms;
 }
 
 .nav-offset-top {
@@ -75,10 +76,22 @@
   height: 10px;
   width: 10px;
   position: absolute;
-  right: 10px;
+  right: 0px;
   top: -6px;
   background-color: white;
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+#nfi1 {
+  text-align: center;
+  background: rgba(255,255,255,0.5);
+  padding: 5px 0px;
+  margin: 0px 5px;
+  border-radius: 2px;
+}
+
+
+
+
