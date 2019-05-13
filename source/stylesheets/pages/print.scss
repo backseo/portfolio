@@ -40,9 +40,12 @@
 
 .p-titre-section {
   background-color: rgba(#F3F3F3,1);
-  border-radius: 4px;
   text-align: center;
   padding: 0px 8px 0px 8px;
+}
+
+.cont-thumbs p {
+  text-indent: 2rem;
 }
 
 .gradient {
@@ -91,32 +94,20 @@ a:hover {
   background-size: cover;
 }
 
-@media only screen and (max-width: 320px) {
-  .sec-print {
-  height: 30vh;
-  background: url('../images/bg-print2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 4px;
-  border-radius: 4px;
-  }
-}
 
 @media only screen and (max-width: 768px) {
-  .sec-print {
-  height: 40vh;
-  background: url('../images/bg-print2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 4px;
-  border-radius: 4px;
+
+  .p-titre-section {
+    border-radius: 2px;
   }
 
   .p-texte {
     text-align: center;
     width: 90%;
+  }
+
+  .p-texte h1 {
+    font-size: 3rem;
   }
 
 }

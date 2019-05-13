@@ -18,16 +18,8 @@
   </div>
 </div>
 
-<div class="propo-container">
-  <div class="p-info-barre">
-    <h4>Ma proposition :</h4>
-    <p>1- Après notre premier contact, je réceptionne toutes les références, le cahier des charges.<br>
-      2- Etablissement d'un devis en fonction de la charge de travail. <br />
-      3- Dès réception de l'acompte (30%), le projet est mis en production.<br />
-      4- Nous suivons, ensemble, au fur et à mesure, l'avancement du projet.<br />
-      5- Au réglement du solde, le projet est livré dans sa totalité.</p>
-  </div>
-  <div class="p-contact-button"><a href="contact.html"><button class="btn btn-success btn-lg">Poser une question.<br>Me faire part d'un projet. <br>Demander un devis.</button></a></div>
+<div class="container aered marges">
+  <p>J'ai commencé l'informatique sur Amiga 500 et la modélisation avec Rhino 3D (sous windows 95). Premiers logiciels du genre avec version d'essai. Au fil du temps, j'ai acquis la maîtrise de techniques professionnelles sous 3dsMax. Je n'ai jamais céssé de tester, d'apprendre cette discipline qui, hors de mon univers professionnel, me passionnait déja. J'ai travaillé longtemps sur des projets personnels grâce auxquels j'ai fini par pouvoir enseigner les bases de la 3D en école à Bordeaux. Aujourd'hui je propose mes services sur des projets divers.<br></p>
 </div>
 
 <section class="a-wrapper-titles">
@@ -35,7 +27,10 @@
     <li><h2>Personnages</h2></li>
     <div class="a-container">
       <div class="img">
-        <a href="images/model-a.jpg" data-lightbox="perso" data-title="Model féminin, only quads. Go to next ->"><%= image_tag "model1.jpg"%></a>
+        <a href="images/model-b.jpg" data-lightbox="perso" data-title="Model féminin, only quads. Go to next ->"><%= image_tag "model1.jpg"%></a>
+      </div>
+      <div class="img hidden">
+        <a href="images/model-a.jpg" data-lightbox="perso" data-title="#"><%= image_tag "model1.jpg"%></a>
       </div>
       <div class="img">
         <a href="images/3d_process.jpg" data-lightbox="perso" data-title="Extraction de textures pour appliquer à un modèle low-poly."><%= image_tag "3d_process1.jpg"%></a>
@@ -48,9 +43,6 @@
       </div>
       <div class="img hidden">
         <a href="images/character.jpg" data-lightbox="perso" data-title="Structure Biped, morphing targets."><%= image_tag "player1.gif"%></a>
-      </div>
-      <div class="img hidden">
-        <a href="images/model-b.jpg" data-lightbox="perso" data-title="#"><%= image_tag "model1.jpg"%></a>
       </div>
       <div class="img">
         <a href="images/garment.jpg" data-lightbox="basic" data-title="Utilisation de Garment Maker et Cloth (Autodesk 3ds Max) pour la création d'un vêtement sur personnage animé."><%= image_tag "garment1.jpg"%></a>
@@ -110,6 +102,9 @@
     <li><h2>Architecture</h2></li>
     <div class="a-container hider">
       <div class="img">
+        <a href="images/arsac.jpg" data-lightbox="arsac" data-title="Etude de faisabilité. Détourage, nettoyage, mise au plan, modelisation, éclairage."><%= image_tag "arsac1.gif"%></a>
+      </div>
+      <div class="img">
         <a href="images/interieur.jpg" data-lightbox="basic" data-title="Travail sur l'éclairage : mental-ray."><%= image_tag "interieur1.jpg"%></a>
       </div>
       <div class="img">
@@ -132,9 +127,6 @@
       </div>
       <div class="img hidden">
         <a href="images/carpentry3.jpg" data-lightbox="carpentry" data-title="Model low-poly. 3/3"><%= image_tag "carpentry1.jpg"%></a>
-      </div>
-       <div class="img">
-        <a href="images/arsac.jpg" data-lightbox="arsac" data-title="Etude de faisabilité. Détourage, nettoyage, mise au plan, modelisation, éclairage."><%= image_tag "arsac1.gif"%></a>
       </div>
     </div><!-- a-container -->
 
@@ -163,6 +155,17 @@
   </ul>
 </section>
 
+<div class="propo-container">
+  <div class="p-info-barre">
+    <h4>Ma proposition :</h4>
+    <p>1- Après notre premier contact, je réceptionne toutes les références, le cahier des charges.<br>
+      2- Etablissement d'un devis en fonction de la charge de travail. <br />
+      3- Dès réception de l'acompte (30%), le projet est mis en production.<br />
+      4- Nous suivons, ensemble, au fur et à mesure, l'avancement du projet.<br />
+      5- Au réglement du solde, le projet est livré dans sa totalité.</p>
+  </div>
+  <div class="p-contact-button"><a href="contact.html"><button class="btn btn-success btn-lg">Poser une question.<br>Me faire part d'un projet. <br>Demander un devis.</button></a></div>
+</div>
 
 
 <%= partial 'layouts/components/apt' %>

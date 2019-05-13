@@ -54,11 +54,13 @@
   width: 100%;
   overflow: hidden;
   border-radius: 3px;
+  margin-bottom: 20px;
 }
 
 
 @media only screen and (max-width: 768px) {
-  .dev-texte h1 {
+  .dev-title h1 {
     font-size: 2rem;
+    margin-bottom: 8px;
   }
 }

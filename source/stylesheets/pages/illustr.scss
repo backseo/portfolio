@@ -77,11 +77,11 @@
 }
 .img:hover:after {
   position: absolute;
-  content:"En voir +";
+  content:"Visualiser";
   right: 8px;
   bottom: 4px;
   font-size: 1em;
-  font-weight: 900;
+  font-weight: bolder;
   color: rgba(255,255,255,1);
   opacity: 1;
   transition: all 0.5s ease 100ms;

@@ -1,22 +1,16 @@
----
-title: Le Wagon - Middleman - About
----
-
-
-
 <div id="about">
   <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
+    <h1>Autres informations sur l'auteur.</h1>
     <ul class="list-inline">
       <% data.users.each do |user| %>
         <li>
           <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
           <% end %>
           <h2><%= user.name %></h2>
           <p>
             <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fa fa-github"></i> <%= user.github_nickname %>
+            <i class="fa fa-github"></i> <%= user.github_nickname %>
             <% end %>
           </p>
         </li>
@@ -26,26 +20,28 @@ title: Le Wagon - Middleman - About
 </div>
 
 
-
 <div class="life">
   <div class="life-cell">
     <div class="bloc-text">
       <div class="life-data">
-      <h3>Illustration</h3>
-      <p>Il a toujours fait parti de ma vie. Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant un cours permettais une gymnastique du cerveau excellente pour la concentration et le rétention d'information. </p>
+        <h3>Les voyages</h3>
+        <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
       </div>
     </div>
+
     <div class="bloc-text">
       <div class="life-data">
-        <h3>Musique</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab minima excepturi, fuga quia id odio eligendi, harum suscipit quae magni impedit fugiat molestiae assumenda exercitationem corrupti ducimus laboriosam cdivpa alias.</p>
+      <h3>La plongée sous-marine</h3>
+      <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
       </div>
     </div>
+
     <div class="bloc-text">
       <div class="life-data">
-      <h3>Plongée sous-marine</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat inventore, quasi itaque nostrum porro rerum ducimus dicta quibusdam aperiam laboriosam officiis, voluptate mollitia qui dolorem ipsa quas harum, consequatur et.</p>
+      <h3>Le dessin</h3>
+      <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
       </div>
     </div>
   </div>
 </div>
+

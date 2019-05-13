@@ -8,7 +8,7 @@
 }
 
 .mov-main {
-  background: $grey;
+  background: $gray-gradient;
   padding: 4px;
   margin: 8px 8px;
   border-radius: 4px;
@@ -16,14 +16,15 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  transition: all ease-in-out 400ms;
+  transition: all ease-in-out 200ms;
 }
 
 .mov-main:hover {
-  background: $darker-grey;
   color: black;
-  transition: all ease-in-out 400ms;
-  box-shadow: 2px 2px 2px;
+  transition: all ease-in-out 100ms;
+  box-shadow: 2px 2px 6px;
+  transform: scale(0.95);
+  background: $sky-gradient;
 }
 
 .mov-info {
@@ -64,6 +65,7 @@
   .mov-main {
     display: block;
   }
+
   .mov-res li {
     display: inline;
     padding: 0px 10px;
@@ -76,5 +78,9 @@
     border-radius: 5px;
     background: #F3F3F3;
     transition: all ease-in-out 500ms;
+  }
+
+  .s-texte h1 {
+    font-size: 3rem;
   }
 }

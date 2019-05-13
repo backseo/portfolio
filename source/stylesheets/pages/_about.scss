@@ -1,10 +1,10 @@
 #about {
-  height: 50vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
+  background-image: linear-gradient(9deg, white 50%, #F4F4F4 50%);
 
   img {
     width: 150px;
@@ -36,29 +36,36 @@
   }
 }
 
+
 .life {
   margin: 1em 1em;
   padding: 2em .2em;
 }
+
+.life-data p {
+  text-indent: 2rem;
+}
+
 .life-cell {
   background: #ddd;
   display: flex;
   justify-content: space-around;
   vertical-align: center;
   flex-wrap: wrap;
-  background:gray;
+  background: $sky-gradient;
+
 }
 
 .bloc-text {
-  max-width: 480px;
+  max-width: 460px;
   border: 1px black solid;
+  border-radius: 3px;
   margin: 0.5em 0.5em;
   padding: 1em 1em;
-  background: #fff;
-  overflow: scroll;
-  & h3 {
-    text-align:center;
-  }
+  background: $gray-gradient;
 }
 
+.bloc-text h3 {
+  text-align:center;
+}
 
