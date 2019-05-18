@@ -1,47 +1,193 @@
-<div id="about">
-  <div class="about-content">
-    <h1>Autres informations sur l'auteur.</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-            <i class="fa fa-github"></i> <%= user.github_nickname %>
+<div class="container">
+  <div id="about">
+    <div class="about-content">
+      <h1>Autres informations sur l'auteur.</h1>
+      <ul class="list-inline">
+        <% data.users.each do |user| %>
+          <li>
+            <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
             <% end %>
-          </p>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-</div>
-
-
-<div class="life">
-  <div class="life-cell">
-    <div class="bloc-text">
-      <div class="life-data">
-        <h3>Les voyages</h3>
-        <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
-      </div>
-    </div>
-
-    <div class="bloc-text">
-      <div class="life-data">
-      <h3>La plongée sous-marine</h3>
-      <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
-      </div>
-    </div>
-
-    <div class="bloc-text">
-      <div class="life-data">
-      <h3>Le dessin</h3>
-      <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
-      </div>
+            <h2><%= user.name %></h2>
+            <p>
+              <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
+              <i class="fa fa-github"></i> <%= user.github_nickname %>
+              <% end %>
+            </p>
+          </li>
+        <% end %>
+      </ul>
     </div>
   </div>
-</div>
+  <div id="organ-menu-top" class="organ-menu-top">
+    <div class="title-omt">Nos prestations Organisation</div>
+    <div class="design-omt">
+      <ul>
+        <i class="fa fa-arrow-down"></i>
+        <img id="icon-omt" src="../images/menu-omt.gif" alt="nav">
+        <li> <a href="#section-1">Science et spiritualité</a> </li>
+        <li> <a href="#section-2">Plongée sous marine</a> </li>
+        <li> <a href="#section-3">L'Asie</a> </li>
+        <li> <a href="#section-4">L'indonésie</a> </li>
+        <li> <a href="#section-5">L'animation</a> </li>
+        <li> <a href="#section-6">Le bricolage</a> </li>
+      </ul>
+    </div>
+  </div>
 
+  <div id="section-1" class="life">
+    <h1>Science et spiritualité</h1>
+    <div class="life-cell">
+      <div class="bloc-text">
+        <div class="life-data">
+          <h3>Les voyages</h3>
+          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao  id="section-1" et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>La plongée sous-marine</h3>
+        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>Le dessin</h3>
+        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-2" class="life">
+    <h1>Plongée sous marine</h1>
+    <div class="life-cell">
+      <div class="bloc-text">
+        <div class="life-data">
+          <h3>Les voyages</h3>
+          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>La plongée sous-marine</h3>
+        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>Le dessin</h3>
+        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-3" class="life">
+    <h1>L'Asie</h1>
+    <div class="life-cell">
+      <div class="bloc-text">
+        <div class="life-data">
+          <h3>Les voyages</h3>
+          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>La plongée sous-marine</h3>
+        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>Le dessin</h3>
+        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-4" class="life">
+    <h1>L'indonésie</h1>
+    <div class="life-cell">
+      <div class="bloc-text">
+        <div class="life-data">
+          <h3>Les voyages</h3>
+          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>La plongée sous-marine</h3>
+        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>Le dessin</h3>
+        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-5" class="life">
+    <h1>L'animation</h1>
+    <div class="life-cell">
+      <div class="bloc-text">
+        <div class="life-data">
+          <h3>Les voyages</h3>
+          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>La plongée sous-marine</h3>
+        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>Le dessin</h3>
+        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-6" class="life">
+    <h1>Le</h1>
+    <div class="life-cell">
+      <div class="bloc-text">
+        <div class="life-data">
+          <h3>Les voyages</h3>
+          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>La plongée sous-marine</h3>
+        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
+        </div>
+      </div>
+
+      <div class="bloc-text">
+        <div class="life-data">
+        <h3>Le dessin</h3>
+        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

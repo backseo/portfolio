@@ -24,8 +24,9 @@
 }
 
   .cont-thumbs p {
-    font-size: 0.9em;
-    padding: 8px 8px;
+    color: white;
+    font-size: 1em;
+    padding: 8px 18px;
     text-align: left;
   }
 
@@ -39,9 +40,11 @@
 }
 
 .p-titre-section {
-  background-color: rgba(#F3F3F3,1);
+  background: $sky-gradient;
   text-align: center;
-  padding: 0px 8px 0px 8px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+  border: 1px black solid;
 }
 
 .cont-thumbs p {
@@ -49,7 +52,7 @@
 }
 
 .gradient {
-  background: $gray-gradient;
+  background: $sky-gradient;
 }
 
 
@@ -94,6 +97,9 @@ a:hover {
   background-size: cover;
 }
 
+.imgbox-white {
+  background: $sky-gradient;
+}
 
 @media only screen and (max-width: 768px) {
 

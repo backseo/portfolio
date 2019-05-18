@@ -42,12 +42,15 @@
   padding: 2em .2em;
 }
 
+.life h1 {
+  color:$white;
+}
+
 .life-data p {
   text-indent: 2rem;
 }
 
 .life-cell {
-  background: #ddd;
   display: flex;
   justify-content: space-around;
   vertical-align: center;
@@ -69,3 +72,104 @@
   text-align:center;
 }
 
+/* Menu navigation */
+.organ-menu-top {
+  opacity: 1;
+  counter-reset: stylitem;
+  position: fixed;
+  top: 100px;
+  left: -304px; /* -304 */
+  min-width: 340px;
+  border-radius: 4px;
+  border: 1px black solid;
+  background: $gray-gradient;
+  padding: 12px 8px;
+  z-index: 30;
+  font-size: 1.3rem;
+  transition: all ease-in-out 300ms;
+}
+
+.organ-menu-top:before {
+  position: absolute;
+  content: " ";
+  background: $gray-gradient;
+  width:48px;
+  top: 28px;
+  height: 142px;
+  left: 10px;
+  transition: all ease-in-out 900ms;
+  background: linear-gradient(left,
+    rgba(255,255,255,0.1) 0%,
+    rgba(255,255,255,0.2) 50%,
+    rgba(255,255,255,0.1) 100%);
+  opacity: 0.3;
+}
+
+.organ-menu-top:hover:before {
+  left: 250px;
+  transition: all ease-in-out 1000ms;
+}
+
+.design-omt {
+  border-radius: 2px;
+  background: $sky-gradient;
+  margin-top: 14px;
+  padding: 12px 2px;
+  width: 90%;
+  box-shadow: inset 1px 1px 1px 1px;
+}
+
+.title-omt {
+  position: absolute;
+  top: 2px;
+  left: 34px;
+  color: $white;
+  font-size: 1.5rem;
+  font-family: $headers-font;
+}
+
+
+.organ-menu-top:hover {
+  left: 0px;
+  border-radius: 4px;
+  border: 1px rgba(255,255,255, 0.3) solid;
+  transition: all ease-in-out 500ms;
+}
+
+.organ-menu-top ul{
+  list-style: none;
+  content: counter();
+  color: black;
+}
+
+.organ-menu-top i{
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  padding: 8px;
+  transform: scale(1.5);
+  color: white;
+}
+
+#icon-omt {
+  position: absolute;
+  top: 65px;
+  right: 2px;
+  padding: 4px;
+}
+
+.organ-menu-top a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+.organ-menu-top li:before {
+  counter-increment: stylitem;
+  content: " " counter(stylitem);
+}
+
+.organ-menu-top a:hover {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
