@@ -23,7 +23,7 @@ $(window).scroll(function() {
     $('.navbar-ficel-brand img').css("height", 60)
   } else {
     $('.navbar-ficel').css("height", 90);
-    $('.navbar-ficel-brand img').css("height", 95)
+    $('.navbar-ficel-brand img').css("height", 85)
   }
 });
 

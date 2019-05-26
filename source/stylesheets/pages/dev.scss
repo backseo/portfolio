@@ -11,6 +11,10 @@
   padding: 35px 0px 35px 0px;
 }
 
+.m-top {
+  margin-top: 10px;
+}
+
 .ico {
   position: relative;
 
@@ -47,8 +51,8 @@
 
 .dev-mainfbox {
   display: flex;
-  background-color: white;
   justify-content: space-around;
+  background-color: white;
   flex-wrap: wrap;
   padding: 10px 2px 0px 2px;
   width: 100%;
