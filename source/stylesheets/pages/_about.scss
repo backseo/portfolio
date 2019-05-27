@@ -36,14 +36,6 @@
   }
 }
 
-.life-data {
-  text-align: center;
-}
-
-.life-data p {
-  text-indent: 2rem;
-}
-
 .life-cell {
   display: flex;
   justify-content: space-around;
@@ -63,10 +55,30 @@
   margin: 0.5em 0.5em;
   padding: 1em 1em;
   background: $gray-gradient;
+  text-align: justify;
+  text-indent: 2rem;
 }
 
 .bloc-text h3 {
   text-align:center;
+}
+
+.bloc-img {
+  max-width: 460px;
+  border: 1px black solid;
+  border-radius: 3px;
+  margin: 0.2em 0.2em;
+  padding: 0.4em 0.4em;
+  background: $white;
+  text-align: center;
+}
+
+.life-data {
+  text-align: justify;
+}
+
+.life-data p {
+  text-indent: 2rem;
 }
 
 /* Menu navigation */
@@ -90,7 +102,7 @@
   position: absolute;
   content: " ";
   background: $gray-gradient;
-  width:48px;
+  width:62px;
   top: 28px;
   height: 142px;
   left: 10px;
@@ -99,12 +111,13 @@
     rgba(255,255,255,0.1) 0%,
     rgba(255,255,255,0.2) 50%,
     rgba(255,255,255,0.1) 100%);
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 .organ-menu-top:hover:before {
   left: 250px;
-  transition: all ease-in-out 1000ms;
+  opacity: 0;
+  transition: all ease-in-out 1200ms;
 }
 
 .design-omt {
@@ -129,7 +142,6 @@
 .organ-menu-top:hover {
   left: 0px;
   border-radius: 4px;
-  border: 1px rgba(255,255,255, 0.3) solid;
   transition: all ease-in-out 500ms;
 }
 
