@@ -36,14 +36,8 @@
   }
 }
 
-
-.life {
-  margin: 1em 1em;
-  padding: 2em .2em;
-}
-
-.life h1 {
-  color:$white;
+.life-data {
+  text-align: center;
 }
 
 .life-data p {
@@ -53,10 +47,13 @@
 .life-cell {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
   background: $sky-gradient;
-
+  width: auto;
+  margin: 1em 1em;
+  padding: 2em .2em;
 }
 
 .bloc-text {
