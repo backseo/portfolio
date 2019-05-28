@@ -1,7 +1,7 @@
 <div class="container">
   <div id="about">
     <div class="about-content">
-      <h1>Autres informations sur l'auteur.</h1>
+      <h1>Quelques informations sur l'auteur.</h1>
       <ul class="list-inline">
         <% data.users.each do |user| %>
           <li>
@@ -18,19 +18,23 @@
         <% end %>
       </ul>
     </div>
+  </div><!-- end about -->
+
+  <div class="life-cell">
+    <%= image_tag "enconstr.jpg", height: "100" %>
   </div>
+
+  <!-- menu top-left -->
   <div id="organ-menu-top" class="organ-menu-top">
     <div class="title-omt">Nos prestations Organisation</div>
     <div class="design-omt">
       <ul>
         <i class="fa fa-arrow-down"></i>
         <img id="icon-omt" src="../images/menu-omt.gif" alt="nav">
-        <li><a href="#section-1">Le voyage</a></li>
-        <li><a href="#section-2">L'animation</a></li>
-        <li><a href="#section-3">La plongée sous-marine</a></li>
-        <li><a href="#section-4">Sciences et spiritualité</a></li>
-        <li><a href="#section-5">Bricolage</a></li>
-        <li><a href="#section-6">La modelisation</a></li>
+        <li><a href="#section-1">Voyages</a></li>
+        <li><a href="#section-2">Plongée sous-marine</a></li>
+        <li><a href="#section-3">Sciences et spiritualité</a></li>
+        <li><a href="#section-4">Bricolage</a></li>
       </ul>
     </div>
   </div>
@@ -38,44 +42,30 @@
   <div id="section-1" class="life">
     <div class="life-cell">
       <div class="bloc-text">
-        <div class="life-data">
-          <h3>Le voyage</h3>
-          <p>Je n'ai eu la possibilité de voyager qu'assez tard. La première fois en 2005, avec mes parents, sur les traces de mes origines paternelles, vers la Martinique. Lorsque j'ai décidé de quitter mon poste d'agent commercial (fin 2016) pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et ensuite à Bangkok. Plus tard j'ai passé quelques mois en Indonésie. Aujourd'hui je travaille en région Bordelaise ou en "remote", là où je me trouve.</p>
-        </div>
+        <h3>Voyages</h3>
+      </div>
+      <div class="bloc-text">
+          <p>Je n'ai eu la possibilité de voyager qu'assez tard. La première fois en 2005, avec mes parents, sur les traces de mes origines paternelles, vers la Martinique. Lorsque j'ai décidé de quitter mon poste d'agent commercial (fin 2016) pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et ensuite à Bangkok. Plus tard j'ai passé quelques mois en Indonésie à Amed au nord de Bali et sur Nusa Pénida, une île magnifique. Aujourd'hui je travaille en région Bordelaise ou en "remote", là où je me trouve.</p>
       </div>
 
-      <div class="bloc-text">
-        <div class="bloc-img">
-        <img src="https://picsum.photos/200/300" alt="">
-        </div>
-      </div>
-
-      <div class="bloc-text">
-        <div class="bloc-img">
+      <div class="bloc-img">
         <img src="https://picsum.photos/230/230" alt="">
-        </div>
+        <p>Le mont Agung</p>
       </div>
+      <div class="bloc-img">
+        <img src="https://picsum.photos/230/230" alt="">
+      </div>
+       <div class="bloc-img">
+        <img src="https://picsum.photos/230/230" alt="">
+      </div>
+       <div class="bloc-img">
+        <img src="https://picsum.photos/230/230" alt="">
+      </div>
+
     </div>
   </div>
 
   <div id="section-2" class="life">
-    <div class="life-cell">
-      <div class="bloc-text">
-          <h3>L'animation</h3>
-      <div class="bloc-img">
-        <%= image_tag "birds.gif", height: 120 %>
-      </div>
-
-      <div class="bloc-text">
-        <div class="life-data">
-        <p>Une passion depuis que j'ai eu à ma disposition des outils qui m'ont permis de faire vivre tout un tas de personnages, d'animaux, d'engins, tout ce que je pouvait imaginer. En 3D,c'est un processus qui requiert de la rigueur, assez long surtout tant que l'on ne dispose pas de plateforme suffisemment puissante. Je m'exerce donc sur des petits projets qui me permettent de mettre en pratique toutes les techniques que je découvre et les logiciels à ma disposition.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <div id="section-3" class="life">
     <div class="life-cell">
       <div class="bloc-text">
         <div class="life-data">
@@ -92,6 +82,35 @@
       <div class="bloc-text">
         <div class="life-data">
         <img src="https://picsum.photos/230/230" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-3" class="life">
+    <div class="life-cell">
+      <div class="bloc-text">
+          <h3>Les sciences et la spiritualité</h3>
+      </div>
+
+      <div class="bloc-text">
+        <p> En 2014 je commence sérieusement à me poser des questions sur la nature de cette réalité qui m'entoure. Je réduis mon temps de travail d'un plein temps à un temps partiel. Je passe ce temps gagné sur la recherche d'informations dont j'ai besoin. C'est à ce moment là que j'ai commencé à réfléchir à donner un sens différent à ma vie. Je me rend compte que des tas de gens, souvent indépendants, passent où ont passé leur vie à etudier des faits dont on ne parle quasiment jamais ou de manière consensuelle dans les médias "mainstream"... L'état général de notre planète, les anciennes civilisations, les réalités invisibles, le phénomène OVNI, les lanceurs d'alertes, les énergies et les médecines alternatives, la méditation, les synchronicités, l'alchimie, la mémoire de l'eau, l'ingéniosité du vivant...</p>
+      </div>
+
+      <div class="bloc-text-fw">
+        <ul>
+        <p>Nombreuses sont les personnes qui m'on ouvert les yeux et l'esprit. Pour n'en citer que quelques-uns :
+          <li class="li"> <strong>Nassim Haramein</strong> : L'ensemble de ses travaux est à la base du changement de vision que je porte aujourd'hui sur le monde et la réalité. J'ai suivi les cours "Delegate Level 1" de son Academy. (<a href="https://academy.resonance.is/french/">voir la version en français</a>).</li>
+          <li class="li"><strong>Lilou Mace</strong> : Et toutes ses interviews (voir : <a href="https://www.lateledelilou.com/" target="_blank">La télé de Lilou).</a></li>
+          <li class="li"><strong>Jacques Grimalit et Patrice Pooyard</strong> : Un incontournable à voir : <a href="https://www.youtube.com/watch?v=HFpHDXUgcqw" target="_blank">La révélation des Pyramides - Le film en français</a>, outre les travaux actuels qu'ils fournissent respectivement. </li>
+          <li class="li"><strong>Patrick Burensteinas</strong> : L'alchimie, la langue des oiseaux, la trame... (voir : <a href="http://www.orifaber.fr/" target="_blank"> Le lien, ici).</a></li>
+          <li class="li"><strong>Eckhart Tolle</strong> : "Le pouvoir du moment présent", entre autre. (voir : <a href="http://www.eckharttolle.fr/" target="_blank">eckharttolle.fr</a>).</li>
+          <li class="li"><strong>Deepak Chopra</strong> : <a href="https://www.deepakchopra.com/" target="_blank">Voir son Site (en anglais).</a></li>
+          <li class="li"><strong>Je prend le temps de regarder des conférences, d'écouter et de lire</strong> : des personnes comme Pierre Rabhi, Idriss Aberkane, Gunter Palii, Jean Jacques Charbonnier, Philippe Guillemant, Romuald Leterrier, Stéphane Allix, Howard Crowhurst, Dolores Cannon, John E Mack, Wayn Dyer, Jean-Pierre Petit, Luc Montagnier, Serge-Reiver Nazare, Christophe Allain...  </li>
+          <li class="li"><strong>Je regarde des "médias alternatifs"</strong> : Nuréa TV, Thinkerview, BTLV, HYM MEDIA, Tistrya...</li>
+          <li class="li">Losque l'on sort la tête du guidon on se rend compte qu'il n'y a que très peu de volonté de la part des pouvoirs publics de nous dire la vérité. <strong>Je ne regarde plus la télé</strong> je vais chercher l'information qui m'intéresse, celle dont j'ai  besoin ! Je fais appel à mon intuition, à mon discernement, j'écoute et exerce mon scepticisme et j'expérimente.</li>
+          </ul>
+        </p>
       </div>
     </div>
   </div>
@@ -99,82 +118,18 @@
   <div id="section-4" class="life">
     <div class="life-cell">
       <div class="bloc-text">
-        <div class="life-data">
-          <h3>Les sciences et la spiritualité</h3>
-        </div>
+        <h3>Bricolage et activités manuelles</h3>
       </div>
 
       <div class="bloc-text">
-        <div class="life-data">
-        <p> En 2014 je commence sérieusement à me poser des questions sur la nature de cette réalité qui m'entoure. Je réduis mon temps de travail d'un plein temps à un temps partiel. Je passe ce temps gagné sur la recherche d'informations dont j'ai besoin. C'est à ce moment là que j'ai commencé à réfléchir à donner un sens différent à ma vie. Je me rend compte que des tas de gens, souvent indépendants, passent où ont passé leur vie à etudier des faits dont on ne parle quasiment jamais ou de manière consensuelle dans les médias "mainstream"... L'état général de notre planète, les anciennes civilisations, les réalités invisibles, le phénomène OVNI, les lanceurs d'alertes, les énergies et les médecines alternatives, la méditation, les synchronicités, l'alchimie, la mémoire de l'eau, l'ingéniosité du vivant...</p>
-        </div>
+        <p>Apprendre c'est bien. Mettre en pratique c'est mieux. Après avoir découvert comment réduire sa consommation de carburant grâce à l'apport d'hydrogène et donc à sa production, j'ai construit ma première cellule HHO avec de la récup. Je me suis amusé à créer un chalumeau capable de souder et faire fondre tout les matériaux. Combinant l'électrolyse avec la cellule à effet DUMAS. Chouette expérimentation. J'ai construit également des petits meubles, un vivarium, des figurines en argiles, des dynamiseurs d'eau, des mobiles motorisés...</p>
       </div>
 
       <div class="bloc-text">
-
-        <p>Nombreuses sont les personnes qui m'on ouvert les yeux et l'esprit. Pour n'en citer que quelques-uns :
-          <ul class="li"> <strong>Nassim Haramein</strong> : L'ensemble de ses travaux est à la base du changement de vision que je porte aujourd'hui sur le monde et la réalité.</ul>
-          <ul class="li"><strong>Lilou Mace</strong> : Et toutes ses interviews (voir : <a href="https://www.lateledelilou.com/" target="_blank">La télé de Lilou).</a></ul>
-          <ul class="li"><strong>Jacques Grimault et Patrice Pooyard</strong> : Un incontournable à voir : <a href="https://www.youtube.com/watch?v=HFpHDXUgcqw" target="_blank">La révélation des Pyramides - Le film en français</a>, outre les travaux actuels qu'ils fournissent respectivement. </ul>
-          <ul class="li"><strong>Patrick Burensteinas</strong> : L'alchimie, la langue des oiseaux, la trame... (voir : <a href="http://www.orifaber.fr/" target="_blank"> Le lien, ici).</a></ul>
-          <ul class="li"><strong>Eckhart Tolle</strong> : "Le pouvoir du moment présent", entre autre. (voir : <a href="http://www.eckharttolle.fr/" target="_blank">eckharttolle.fr</a>).</ul>
-          <ul class="li"><strong>Deepak Chopra</strong> : <a href="https://www.deepakchopra.com/" target="_blank">Voir son Site (en anglais).</a></ul>
-          <ul class="li"><strong>Je prend le temps de regarder des conférences, d'écouter et de lire</strong> : des personnes comme Pierre Rabhi, Idriss Aberkane, Gunter Pauli, Jean Jacques Charbonnier, Philippe Guillemant, Romuald Leterrier, Stéphane Allix, Howard Crowhurst, Dolores Cannon, John E Mack, Wayn Dyer, Jean-Pierre Petit, Luc Montagnier, Serge-Reiver Nazare, Christophe Allain...  </ul>
-          <ul class="li"><strong>Je regarde des "médias alternatifs"</strong> : Nuréa TV, Thinkerview, BTLV, HYM MEDIA, Tistrya...</ul>
-          <ul class="li">Losque l'on sort la tête du guidon on se rend compte qu'il n'y a que très peu de volonté de la part des pouvoirs publics de nous dire la vérité. <strong>Je ne regarde plus la télé</strong> je vais chercher l'information qui m'intéresse, celle dont j'ai  besoin ! Je fais appel à mon intuition, à mon discernement, j'écoute et exerce mon scepticisme et j'expérimente.</ul>
-          <ul class="li"></ul>
-
-        </p>
-
+        <div class="block-img">
+        <img src="https://picsum.photos/200/200" alt="">
       </div>
     </div>
   </div>
 
-  <div id="section-5" class="life">
-    <div class="life-cell">
-      <div class="bloc-text">
-        <div class="life-data">
-          <h3>Bricolage</h3>
-          <p>Lorsque j'ai décidé de quitter mon poste d'agent commercial pour changer de vie et me consacrer à mes passions je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et Bangkok. L'Asie en 2 roues c'est incroyable ! Plus tard j'ai passé quelques mois à en Indonésie. Né à Bordeaux en Gironde j'apprécie vivre près de l'océan et faire de la plongée. Aujourd'hui je travaille sur la région Bordelaise ou en "remote" là où je me trouve.</p>
-        </div>
-      </div>
-
-      <div class="bloc-text">
-        <div class="life-data">
-        <h3>Bricolage</h3>
-        <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI)à Nusa Penida (Bali) en Indonésie en 2018.</p>
-        </div>
-      </div>
-
-      <div class="bloc-text">
-        <div class="life-data">
-        <h3>Bricolage</h3>
-        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="section-6" class="life">
-    <div class="life-cell">
-      <div class="bloc-text">
-        <div class="life-data">
-          <h3>La modélisation</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati repellat, qui saepe. Eius, accusantium. Aut laudantium molestias blanditiis, labore, esse, dolore culpa necessitatibus quidem quasi velit expedita, veniam dolores quia?</p>
-        </div>
-      </div>
-
-      <div class="bloc-text">
-        <div class="bloc-img">
-        <%= image_tag "chambre.jpg", height: 160 %>
-      </div>
-
-      <div class="bloc-text">
-        <div class="life-data">
-        <h3>La modélisation</h3>
-        <p>Depuis que les cahiers ont des marges, je les ais rempli de croquis, d'ébauches, de caricatures, de bulles. Plus tard j'ai appris que dessiner pendant les cours permettais une dynamique du cerveau favorisant la concentration et la rétention d'informations. Amusant non !?</p>
-        </div>
-      </div>
-    </div>
-  </div>
 </div><!-- container -->

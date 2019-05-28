@@ -56,11 +56,31 @@
   padding: 1em 1em;
   background: $gray-gradient;
   text-align: justify;
-  text-indent: 2rem;
+}
+
+.bloc-title {
+  border-radius: 3px;
+  margin: 0.5em 0.5em;
+  padding: 1em 1em;
+  text-align: justify;
 }
 
 .bloc-text h3 {
   text-align:center;
+}
+
+.bloc-text p {
+  text-indent: 2rem;
+}
+
+.bloc-text-fw {
+  width: 95%;
+  border: 1px black solid;
+  border-radius: 3px;
+  margin: 0.5em 0.5em;
+  padding: 1em 1em;
+  background: $gray-gradient;
+  text-align: justify;
 }
 
 .bloc-img {
@@ -71,6 +91,10 @@
   padding: 0.4em 0.4em;
   background: $white;
   text-align: center;
+}
+
+.bloc-img p {
+  padding-top: 10px;
 }
 
 .life-data {
@@ -104,17 +128,18 @@
   background: $gray-gradient;
   width:62px;
   top: 28px;
-  height: 142px;
+  height: 104px;
   left: 10px;
   transition: all ease-in-out 900ms;
   background: linear-gradient(left,
-    rgba(255,255,255,0.1) 0%,
-    rgba(255,255,255,0.2) 50%,
-    rgba(255,255,255,0.1) 100%);
+    rgba(255,255,255,0.3) 0%,
+    rgba(255,255,255,0.5) 50%,
+    rgba(255,255,255,0.3) 100%);
   opacity: 0.9;
 }
 
 .organ-menu-top:hover:before {
+  width:2px;
   left: 250px;
   opacity: 0;
   transition: all ease-in-out 1200ms;
@@ -122,7 +147,12 @@
 
 .design-omt {
   border-radius: 2px;
-  background: $sky-gradient;
+  transition: all ease-in-out 900ms;
+  background: linear-gradient(180deg,
+  rgba(255,255,255,0.4) 0%,
+  rgba(255,255,255,0.4) 50%,
+  rgba(0,0,255,0) 55%),
+  rgba(180,180,255,1) 100%;
   margin-top: 14px;
   padding: 12px 2px;
   width: 90%;
@@ -171,6 +201,7 @@
   text-decoration: none;
   color: black;
   margin-left: 10px;
+  z-index: 500;
 }
 .organ-menu-top li:before {
   counter-increment: stylitem;
