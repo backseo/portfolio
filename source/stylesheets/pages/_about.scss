@@ -35,6 +35,13 @@
     color: #D23333;
   }
 }
+.life-cell-main {
+  background: $sky-gradient;
+  width: auto;
+  margin: 0.3em 0.1em;
+  padding: 1em .2em;
+  text-align: center;
+}
 
 .life-cell {
   display: flex;
@@ -42,34 +49,26 @@
   align-items: center;
   vertical-align: center;
   flex-wrap: wrap;
-  background: $sky-gradient;
   width: auto;
   margin: 1em 1em;
   padding: 2em .2em;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.bloc-title {
+  padding: 0.2em 1em;
+  text-align: center;
 }
 
 .bloc-text {
   max-width: 460px;
   border: 1px black solid;
   border-radius: 3px;
-  margin: 0.5em 0.5em;
+  margin: 0.2em 0.2em;
   padding: 1em 1em;
   background: $gray-gradient;
   text-align: justify;
-}
-
-.bloc-title {
-  border-radius: 3px;
-  margin: 0.5em 0.5em;
-  padding: 1em 1em;
-  text-align: justify;
-}
-
-.bloc-text h3 {
-  text-align:center;
-}
-
-.bloc-text p {
   text-indent: 2rem;
 }
 
@@ -77,10 +76,16 @@
   width: 95%;
   border: 1px black solid;
   border-radius: 3px;
-  margin: 0.5em 0.5em;
+  margin: 0.2em 0.2em;
   padding: 1em 1em;
   background: $gray-gradient;
   text-align: justify;
+  text-indent: 2rem;
+}
+
+.bloc-text-fw ul {
+  padding-left: 1em;
+  text-indent: 0px;
 }
 
 .bloc-img {
@@ -97,13 +102,6 @@
   padding-top: 10px;
 }
 
-.life-data {
-  text-align: justify;
-}
-
-.life-data p {
-  text-indent: 2rem;
-}
 
 /* Menu navigation */
 .organ-menu-top {
