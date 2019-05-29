@@ -10,13 +10,13 @@
       </div>
       <a href="contact.html" type="button" class="btn btn-success m-top">Contactez-moi !</a>
     </div>
-
     <section>
       <div class="text-center dev-mainfbox aered">
+        <%= image_tag "separate02.png", alt: "alttext" %>
+        <%= image_tag "ico-middleman.png", alt: "Middleman", height: 60 %>
         <%= image_tag "ico-html.png", alt: "HTML", height: 60  %>
         <%= image_tag "ico-css.png", alt: "CSS", height: 60  %>
         <%= image_tag "ico-javascript.png", alt: "Javascript", height: 60  %>
-        <%= image_tag "ico-middleman.png", alt: "Middleman", height: 60 %>
         <%= image_tag "ico-bootstrap.png", alt: "Bootstrap", height: 60 %>
       </div>
     </section>
@@ -27,12 +27,6 @@
     </div>
   </div>
 </div><!-- fin container -->
-
-<div class="dev-mainfbox black">
-  <%= image_tag "Capture_dhom1.png", alt: "image", height: 150 %>
-  <%= image_tag "Capture_hop1.png", alt: "image", height: 150 %>
-  <%= image_tag "Capture_farm1.png", alt: "image", height: 150 %>
-</div>
 
 <div class="container">
   <div data-aos="fade-up">
@@ -46,9 +40,10 @@
     </div>
     <p id="myhover"><strong>Création de sites dynamiques : </strong>Framework Ruby on Rails, architecture MVC. Modules, librairies, helpers. Programmation orientée objets, classes, héritage. Requêtes HTTP, CRUD, bases de données, gestion de version et collaboration Github.</p>
   </div>
-</div>
+
   <section>
     <div class="text-center dev-mainfbox aered">
+      <%= image_tag "separate03.png", alt: "alttext" %>
       <%= image_tag "ico-rails.png", alt: "Rails", height: 50  %>
       <%= image_tag "ico-postgre.png", alt: "Postgre", height: 50  %>
       <%= image_tag "ico-github.png", alt: "Github", height: 50 %>
@@ -62,8 +57,13 @@
       <%= image_tag "ico-heroku.png", alt: "Heroku", height: 50 %>
     </div>
   </section>
+</div><!-- container -->
 
-
+<div class="dev-mainfbox black">
+  <%= image_tag "Capture_dhom1.png", alt: "image", height: 150 %>
+  <%= image_tag "Capture_hop1.png", alt: "image", height: 150 %>
+  <%= image_tag "Capture_farm1.png", alt: "image", height: 150 %>
+</div>
 
   <%= partial 'layouts/components/apt' %>
 
