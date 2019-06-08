@@ -36,12 +36,13 @@
 .dev-title {
   position: relative;
   text-align: center;
-  padding: 0px 8px 8px 8px;
+  padding: 0px 8px 2px 8px;
   min-width: 33%;
   background: $gray-gradient;
   border-radius: 4px;
   & h1 {
   font-family: $body-font;
+  font-weight: bolder;
   }
 }
 
