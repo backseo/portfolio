@@ -5,30 +5,18 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-ec6c08df.css" rel="stylesheet" />
-    <script src="javascripts/application-4689e5df.js"></script>
-    <link href="path/to/lightbox.css" rel="stylesheet">
+    <title>Un bout de Ficel</title>
+    <link href="stylesheets/application-7a931b4d.css" rel="stylesheet" />
+    <script src="javascripts/application-43fd8c4a.js"></script>
     <link rel="stylesheet" href="aos/aos.scss" />
   </head>
   <body>
-
-      <div class="navbar-ficel" data-aos="slide-down">
+      <div class="navbar-ficel">
   <!-- Logo -->
   <a href="https://backseo.github.io/portfolio" class="navbar-ficel-brand">
-  <img src="images/ficel1-5f2c46c8.gif" alt="alttext" />
+  <img src="images/ficel-1cf42216.png" alt="Logo Un bout de Ficel" title="Accueil" />
   </a>
   <div class="tabs hidden-xs hidden-sm">
-
-  <div class="tabs-item dropdown">
-    <span>Portfolio 3D</span>
-      <div class="dropdown-content">
-        <span><a href="autodesk.html">Modélisation</a></span>
-        <hr>
-        <span><a href="shorts2.html">Animation & Motion Design</a></span>
-      </div>
-  </div>
-
 
   <div class="tabs-item dropdown">
     <span>Print / Web / Illustration<span>
@@ -37,11 +25,22 @@
           <hr>
          <span><a href="illustration.html">Dessins et Illustrations</a></span>
          <hr>
-         <span><a href="gifs.html">Personnalisation de pages</a></span>
+         <span><a href="gifs.html">Personnalisation de supports</a></span>
     </div>
   </div>
 
   <div class="tabs-item dropdown">
+    <span>Portfolio 3D</span>
+      <div class="dropdown-content">
+        <span><a href="autodesk.html">Modélisation</a></span>
+        <hr>
+        <span><a href="shorts2.html">Animation & Motion Design</a></span>
+        <hr>
+        <span><a href="unreal.html">Temps réel</a></span>
+      </div>
+  </div>
+
+  <div class="tabs-item">
     <span><a href="dev_comp.html">Développement</a></span>
   </div>
 
@@ -50,6 +49,9 @@
   </div>
   <div class="tabs-item">
      <span><a href="contact.html">Contact</a></span>
+  </div>
+  <div class="tabs-item">
+     <span><a href="about.html">A propos</a></span>
   </div>
 
 </div><!-- Fin tabs -->
@@ -60,11 +62,9 @@
     <!-- Profile picture with dropdown list -->
     <div class="navbar-ficel-item">
       <div class="dropdown">
-        <img src="images/lewagon2-cf0d5d6a.gif" class="avatar dropdown-toggle" id="navbar-ficel-menu" data-toggle="dropdown">
+        <img src="images/lewagon2-cf0d5d6a.gif" class="avatar dropdown-toggle hidden-sm hidden-xs" id="navbar-ficel-menu" data-toggle="dropdown" title="Le Wagon">
         <ul class="dropdown-menu dropdown-menu-right navbar-ficel-dropdown-menu">
           <li><a href="https://www.lewagon.com/fr">Le Wagon</a></li>
-          <li><a href="#">Test-Page 1</a></li>
-          <li><a href="#">Test-Page 2</a></li>
         </ul>
       </div>
     </div>
@@ -75,34 +75,179 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-ficel-dropdown-menu">
+        <li id="nfi1">Naviguer vers :</li>
         <li><a href="print.html">Print</a></li>
         <li><a href="illustration.html">Illustration</a></li>
         <li><a href="gifs.html">Contenu personnalisé</a></li>
         <li><a href="autodesk.html">Modelisation 3D</a></li>
         <li><a href="shorts2.html">Animation 3D</a></li>
+        <li><a href="unreal.html">Temps réel</a></li>
         <li><a href="dev_comp.html">Développement</a></li>
         <li><a href="music.html">Musique</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">A propos</a></li>
       </ul>
     </div>
   </div>
 </div>
 
-      <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
+      <div class="nav-offset-top"></div>
+      <div class="container">
+  <div id="about">
+    <div class="about-content">
+      <h1>Quelques informations sur l'auteur.</h1>
+      <ul class="list-inline">
+          <li>
 <a href="https://kitt.lewagon.com/alumni/Backseo" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Backseo" class="img-circle" alt="Backseo" />
-</a>          <h2>Serge Cleoron</h2>
-          <p>
+</a>            <h2>Serge Cleoron</h2>
+            <p>
 <a href="https://github.com/Backseo" target="_blank">              <i class="fa fa-github"></i> Backseo
-</a>          </p>
-        </li>
-    </ul>
+</a>            </p>
+          </li>
+      </ul>
+    </div>
+  </div><!-- end about -->
+
+  <!-- menu top-left -->
+  <div id="organ-menu-top" class="organ-menu-top">
+    <div class="title-omt">Nos prestations Organisation</div>
+    <div class="design-omt">
+      <ul>
+        <i class="fa fa-arrow-down"></i>
+        <img id="icon-omt" src="images/menu-omt-0f8b36a2.gif" alt="nav">
+        <li><a href="#section-1">Voyages</a></li>
+        <li><a href="#section-2">Plongée sous-marine</a></li>
+        <li><a href="#section-3">Sciences et spiritualité</a></li>
+        <li><a href="#section-4">Bricolage</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+
+  <div id="section-1" class="life">
+    <div class="life-cell-main">
+      <div class="bloc-title">
+        <h3>Le Voyage</h3>
+      </div>
+      <div class="life-cell">
+        <div class="bloc-text">
+            <p>Premier voyage sur les traces de mes origines paternelles, vers la Martinique (2005 & 2015). La Corse (2014). Lorsque j'ai décidé de quitter mon poste d'agent commercial (fin 2016) et me consacrer à mes passions, je suis parti vivre quelques mois en Thaïlande sur l'ile de Koh Tao et ensuite à Bangkok. Plus tard j'ai passé quelques mois en Indonésie à Amed au nord de Bali et sur Nusa Pénida, une île magnifique. Aujourd'hui je travaille principalement en région Bordelaise ou en "remote", là où je me trouve.</p>
+        </div>
+
+
+        <div class="bloc-img">
+          <img src="images/voyage2-00ccc3ca.jpg" alt="alttext" />
+          <p>Les Salines - Martinique</p>
+        </div>
+        <div class="bloc-img">
+          <img src="images/voyage3-faacd0c2.jpg" alt="alttext" />
+          <p>Solenzara - Corse</p>
+        </div>
+        <div class="bloc-img">
+          <img src="images/voyage1-c5e7eca0.jpg" alt="Koh Tao" />
+          <p>Shark Bay - Koh Tao - Thaïland</p>
+        </div>
+         <div class="bloc-img">
+          <img src="images/voyage8-c7033738.jpg" alt="alttext" />
+          <p>Khalapanga - Koh Tao - Thaïland</p>
+        </div>
+        <div class="bloc-img">
+          <img src="images/voyage5-e41c60db.jpg" alt="alttext" />
+          <p>Mont Agung - Bali - Indonésie</p>
+        </div>
+         <div class="bloc-img">
+          <img src="images/voyage4-04a357c9.jpg" alt="alttext" />
+          <p>Nusa Penida - Indonésie</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-2" class="life">
+    <div class="life-cell-main">
+      <div class="bloc-title">
+        <h3>La plongée sous-marine</h3>
+      </div>
+      <div class="life-cell">
+        <div class="bloc-text">
+          <p> Pour passer les niveaux de plongée j'ai commencé en 2014 dans les calanques de Marseille (Niveau 1 ANMP). Le premier niveau professionnel à Koh Tao en Thaîlande en 2016 (DiveMaster PADI). Puis le diplome d'instructeur (Open Water Scuba Instructor / SSI) à Nusa Penida (Bali) en Indonésie, fin 2018. Je ne pouvais omettre ce lien fort qui me lie à l'océan, à l'eau en général.</p>
+        </div>
+        <div class="bloc-img">
+          <img src="images/plongee3-359d36f3.jpg" alt="alttext" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/plongee2-638dc587.jpg" alt="alttext" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/plongee1-788ceceb.jpg" alt="alttext" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/plongee4-d3de9eca.jpg" alt="alttext" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/plongee5-f082f37c.jpg" alt="alttext" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-3" class="life">
+    <div class="life-cell-main">
+      <div class="bloc-title">
+          <h3>Les sciences, la spiritualité, l'invisible.</h3>
+      </div>
+      <div class="life-cell">
+        <div class="bloc-text-fw">
+          <p> En 2014 je commence sérieusement à me poser des questions sur la nature de cette réalité qui m'entoure. Je réduis mon temps de travail d'un plein temps à un temps partiel. Je passe ce temps gagné sur la recherche d'informations dont j'ai besoin. C'est à ce moment là que j'ai commencé à réfléchir à donner un sens différent à ma vie. Je me rend compte que des tas de gens, souvent indépendants, passent où ont passé leur vie à etudier des faits dont on ne parle quasiment jamais ou de manière consensuelle dans les médias "mainstream"... L'état général de notre planète, les anciennes civilisations, les réalités invisibles, le phénomène OVNI, les lanceurs d'alertes, les énergies et les médecines alternatives, la méditation, les synchronicités, l'alchimie, la mémoire de l'eau, l'ingéniosité du vivant...</p>
+
+          <ul>
+          <p>Nombreuses sont les personnes qui m'on ouvert les yeux et l'esprit. Pour n'en citer que quelques-uns :
+            <li class="li"> <strong>Nassim Haramein</strong> : L'ensemble de ses travaux est à la base du changement de vision que je porte aujourd'hui sur le monde et la réalité. J'ai suivi les cours "Delegate Level 1" de son Academy. (<a href="https://academy.resonance.is/french/">voir la version en français</a>).</li>
+            <li class="li"><strong>Lilou Mace</strong> : Et toutes ses interviews (voir : <a href="https://www.lateledelilou.com/" target="_blank">La télé de Lilou).</a></li>
+            <li class="li"><strong>Jacques Grimalit et Patrice Pooyard</strong> : Un incontournable à voir : <a href="https://www.youtube.com/watch?v=HFpHDXUgcqw" target="_blank">La révélation des Pyramides - Le film en français</a>, outre les travaux actuels qu'ils fournissent respectivement. </li>
+            <li class="li"><strong>Patrick Burensteinas</strong> : L'alchimie, la langue des oiseaux, la trame... (voir : <a href="http://www.orifaber.fr/" target="_blank"> Le lien, ici).</a></li>
+            <li class="li"><strong>Eckhart Tolle</strong> : "Le pouvoir du moment présent", entre autre. (voir : <a href="http://www.eckharttolle.fr/" target="_blank">eckharttolle.fr</a>).</li>
+            <li class="li"><strong>Deepak Chopra</strong> : <a href="https://www.deepakchopra.com/" target="_blank">Voir son Site (en anglais).</a></li>
+            <li class="li"><strong>Je prend le temps de regarder des conférences, d'écouter et de lire</strong> : des personnes comme Pierre Rabhi, Idriss Aberkane, Gunter Palii, Jean Jacques Charbonnier, Philippe Guillemant, Romuald Leterrier, Bleuette Diot, Stéphane Allix, Rupert Sheldrake, Howard Crowhurst, Dolores Cannon, John E Mack, Wayn Dyer, Jean-Pierre Petit, Luc Montagnier, Serge-Reiver Nazare, Christophe Allain...  </li>
+            <li class="li"><strong>Je regarde des "médias alternatifs"</strong> : Nuréa TV, Thinkerview, BTLV, HYM MEDIA, Tistrya...</li>
+            <li class="li">Losque l'on sort la tête du guidon on se rend compte qu'il n'y a que très peu de volonté de la part des pouvoirs publics de nous informer sur la réalité. <strong>Je ne regarde plus la télé</strong> je vais chercher l'information qui m'intéresse, celle dont j'ai  besoin ! Je fais appel à mon intuition, à mon discernement, j'écoute et exerce mon scepticisme et j'expérimente !</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+  </div>
+
+  <div id="section-4" class="life">
+    <div class="life-cell-main">
+        <div class="bloc-title">
+          <h3>Activités manuelles et expérimentations.</h3>
+        </div>
+      <div class="life-cell">
+        <div class="bloc-text">
+          <p>Apprendre c'est bien. Mettre en pratique c'est mieux. Après avoir découvert comment réduire sa consommation de carburant grâce à l'apport d'hydrogène et donc à sa production, j'ai construit ma première cellule HHO avec de la récup. Je me suis amusé à créer un chalumeau capable de souder et faire fondre tout les matériaux. Combinant l'électrolyse avec la cellule à effet DUMAS. Chouette expérimentation. J'ai construit également des petits meubles, un vivarium avec son décor intérieur, des figurines en argiles, des dynamiseurs d'eau, des mobiles motorisés, des mini-fontaines...</p>
+        </div>
+        <div class="bloc-img">
+          <img src="images/hho2-c74cae00.jpg" alt="hho" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/hho1-7bd51045.jpg" alt="cellule hho" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/hho3-cc47df53.jpg" alt="dihydrogene" />
+        </div>
+        <div class="bloc-img">
+          <img src="images/brico1-73d7c780.jpg" alt="travail du bois" />
+        </div>
+         <div class="bloc-img">
+          <img src="images/brico2-19be45ab.jpg" alt="meuble en bois" />
+        </div>
+         <div class="bloc-img">
+          <img src="images/brico3-6f0158c8.jpg" alt="fontaine à eau" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- container -->
 
       <div class="foot-up"></div>
       <div class="myfooter">
@@ -132,6 +277,7 @@
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="mentions.html">Mentions légales</a></li>
           </ul>
         </div>
       </div>
@@ -149,18 +295,16 @@
 </div>
 
 
-
     <!-- stellar on top of jquery -->
-    <script>$(window).stellar()</script>
+    <script>$(window).stellar({verticalOffset : 200});</script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="javascripts/lightbox-2da3f44b.js"></script>
-    <script src="javascripts/mescripts-da39a3ee.js"></script>
     <script>
       AOS.init({
         offset: 70,
         duration: 500,
         easing: 'ease-in-out',
-        delay: 100,
+        delay: 300,
       });
   </script>
   </body>

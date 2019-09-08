@@ -1,6 +1,6 @@
 .sec-illust {
-  height: 90vh;
-  background: url("../images/bg-illustra.jpg");
+  height: 60vh;
+  background: url("../images/bg-illustra2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -10,23 +10,75 @@
   justify-content: space-around;
   vertical-align: center;
   flex-wrap: wrap;
-  padding: 5px; }
+  padding: 20px 5px; }
+
+.i-texte {
+  text-align: center;
+  padding: 0px 15px 8px 15px;
+  width: 40%;
+  border-radius: 5px;
+  background: transparent;
+  transition: all ease-in-out 500ms; }
+
+#tube {
+  border-radius: 4px;
+  margin-left: 3em; }
 
 .img {
+  margin-top: 24px;
   position: relative;
-  transition: all 0.5s ease 0s; }
+  transition: all 0.5s ease 0s;
+  filter: brightness(0.6); }
 
 .img:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  z-index: 10;
+  filter: brightness(1); }
 
-@media only screen and (max-width: 720px) {
-  .sec-illust {
-    height: 20vh;
-    background: url("../images/bg-illustra.jpg");
-    background-position: center;
-    background-size: cover;
-    margin: 4px;
-    border-radius: 4px; } }
+.img:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+  transition: all 0.5s ease 100ms; }
+
+.img:hover:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  bottom: 100%;
+  width: 100%;
+  height: 1px;
+  background: white;
+  opacity: 0.5;
+  transition: all 0.5s ease 100ms; }
+
+/* texte apercu*/
+.img:after {
+  position: absolute;
+  content: "";
+  right: 200px;
+  bottom: 4px;
+  font-size: 1em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0; }
+
+.img:hover:after {
+  position: absolute;
+  content: "Visualiser";
+  right: 8px;
+  bottom: 4px;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  opacity: 1;
+  transition: all 0.5s ease 100ms; }
 
 .illust-inside {
   position: absolu;
@@ -47,5 +99,17 @@
   width: 60%;
   margin: 0 auto;
   color: #fff;
-  padding: 20px;
+  padding: 20px 20px;
   border-radius: 5px; }
+
+@media only screen and (max-width: 720px) {
+  .sec-illust {
+    height: 20vh;
+    background: url("../images/bg-illustra.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 4px; }
+  .i-texte {
+    width: 90%;
+    padding: 0px 15px 8px 15px; } }

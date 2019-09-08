@@ -5,30 +5,18 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title></title>
-    <link href="stylesheets/application-ec6c08df.css" rel="stylesheet" />
-    <script src="javascripts/application-4689e5df.js"></script>
-    <link href="path/to/lightbox.css" rel="stylesheet">
+    <title>Un bout de Ficel</title>
+    <link href="stylesheets/application-7a931b4d.css" rel="stylesheet" />
+    <script src="javascripts/application-43fd8c4a.js"></script>
     <link rel="stylesheet" href="aos/aos.scss" />
   </head>
   <body>
-
-      <div class="navbar-ficel" data-aos="slide-down">
+      <div class="navbar-ficel">
   <!-- Logo -->
   <a href="https://backseo.github.io/portfolio" class="navbar-ficel-brand">
-  <img src="images/ficel1-5f2c46c8.gif" alt="alttext" />
+  <img src="images/ficel-1cf42216.png" alt="Logo Un bout de Ficel" title="Accueil" />
   </a>
   <div class="tabs hidden-xs hidden-sm">
-
-  <div class="tabs-item dropdown">
-    <span>Portfolio 3D</span>
-      <div class="dropdown-content">
-        <span><a href="autodesk.html">Modélisation</a></span>
-        <hr>
-        <span><a href="shorts2.html">Animation & Motion Design</a></span>
-      </div>
-  </div>
-
 
   <div class="tabs-item dropdown">
     <span>Print / Web / Illustration<span>
@@ -37,11 +25,22 @@
           <hr>
          <span><a href="illustration.html">Dessins et Illustrations</a></span>
          <hr>
-         <span><a href="gifs.html">Personnalisation de pages</a></span>
+         <span><a href="gifs.html">Personnalisation de supports</a></span>
     </div>
   </div>
 
   <div class="tabs-item dropdown">
+    <span>Portfolio 3D</span>
+      <div class="dropdown-content">
+        <span><a href="autodesk.html">Modélisation</a></span>
+        <hr>
+        <span><a href="shorts2.html">Animation & Motion Design</a></span>
+        <hr>
+        <span><a href="unreal.html">Temps réel</a></span>
+      </div>
+  </div>
+
+  <div class="tabs-item">
     <span><a href="dev_comp.html">Développement</a></span>
   </div>
 
@@ -50,6 +49,9 @@
   </div>
   <div class="tabs-item">
      <span><a href="contact.html">Contact</a></span>
+  </div>
+  <div class="tabs-item">
+     <span><a href="about.html">A propos</a></span>
   </div>
 
 </div><!-- Fin tabs -->
@@ -60,11 +62,9 @@
     <!-- Profile picture with dropdown list -->
     <div class="navbar-ficel-item">
       <div class="dropdown">
-        <img src="images/lewagon2-cf0d5d6a.gif" class="avatar dropdown-toggle" id="navbar-ficel-menu" data-toggle="dropdown">
+        <img src="images/lewagon2-cf0d5d6a.gif" class="avatar dropdown-toggle hidden-sm hidden-xs" id="navbar-ficel-menu" data-toggle="dropdown" title="Le Wagon">
         <ul class="dropdown-menu dropdown-menu-right navbar-ficel-dropdown-menu">
           <li><a href="https://www.lewagon.com/fr">Le Wagon</a></li>
-          <li><a href="#">Test-Page 1</a></li>
-          <li><a href="#">Test-Page 2</a></li>
         </ul>
       </div>
     </div>
@@ -75,36 +75,53 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-ficel-dropdown-menu">
+        <li id="nfi1">Naviguer vers :</li>
         <li><a href="print.html">Print</a></li>
         <li><a href="illustration.html">Illustration</a></li>
         <li><a href="gifs.html">Contenu personnalisé</a></li>
         <li><a href="autodesk.html">Modelisation 3D</a></li>
         <li><a href="shorts2.html">Animation 3D</a></li>
+        <li><a href="unreal.html">Temps réel</a></li>
         <li><a href="dev_comp.html">Développement</a></li>
         <li><a href="music.html">Musique</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">A propos</a></li>
       </ul>
     </div>
   </div>
 </div>
 
-      <div class="container">
+      <div class="nav-offset-top"></div>
+      
+<div class="container">
   <div class="action">
     <h3>Un Bout De Ficel</h3>
-    <h4>Serge CLEORON<br>67 avenue du Champ Rollet<br>33610 CESTAS</h4>
-    <h5>Tel (+33) 670 98 95 93</h5>
+    <h4>Serge CLEORON<br>33610 CESTAS</h4>
+    <h5>Tel: (+33) 670 98 95 93<br>Siret : 420 580 987 00022</h5>
   </div>
 
-  <div class="stylised">
+  <div class="stylised ">
+
     <form class="form-group" action="https://formspree.io/sc21417@gmail.com" method="post">
-      <input class="form-control" type="text"name="prénom" placeholder="Votre prénom">
-      <input class="form-control" type="text"name="nom" placeholder="Votre Nom">
+      <div class="col-sm-4">
+        <label>Prénom</label>
+      <input class="form-control" type="text"name="prénom" placeholder="Saisissez ici votre prénom">
+      <br>
+      <label>Nom</label>
+      <input class="form-control" type="text"name="nom" placeholder="Saisissez ici votre Nom">
+      <br>
+      <label>E-mail</label>
       <input class="form-control" type="email" name="_replyto" placeholder="Saisissez ici votre E-mail">
-      <textarea   class="form-control" name="body" rows="4" placeholder="Votre message, description de votre projet..."></textarea>
+      <br>
+      <label>Message</label>
+      </div>
+      <textarea class="form-control" name="body" rows="6" placeholder="Votre message, description de votre projet... (Vous pouvez redimmensionner cette fenêtre pour plus de clarté)."></textarea>
+      <br>
       <input type="submit" value="Envoyer">
     </form>
+
   </div>
+
 
 
 
@@ -136,6 +153,7 @@
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="mentions.html">Mentions légales</a></li>
           </ul>
         </div>
       </div>
@@ -153,18 +171,16 @@
 </div>
 
 
-
     <!-- stellar on top of jquery -->
-    <script>$(window).stellar()</script>
+    <script>$(window).stellar({verticalOffset : 200});</script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="javascripts/lightbox-2da3f44b.js"></script>
-    <script src="javascripts/mescripts-da39a3ee.js"></script>
     <script>
       AOS.init({
         offset: 70,
         duration: 500,
         easing: 'ease-in-out',
-        delay: 100,
+        delay: 300,
       });
   </script>
   </body>
