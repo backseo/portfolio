@@ -18,5 +18,10 @@ end
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.deploy_method = :git
+  deploy.deploy_method = :ftp
+  deploy.host = "ftpperso.free.fr"
+  deploy.user = "ficel1"
+  deploy.password = "ficelle"
+  deploy.path = "/srv/www/ficel1.free.fr"
+
 end
