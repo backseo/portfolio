@@ -44,5 +44,3 @@ $(window).scroll(function() {
 
 
 
-
-
