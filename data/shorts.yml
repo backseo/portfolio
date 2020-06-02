@@ -1,5 +1,5 @@
 - title: 'Quad 2018'
-  slug: 'Modelisation du véhicule et de son pilote. Character rigging. Rendu Mental Ray.'
+  slug: 'Animation de quad et son pilote. Character rigging. Rendu Mental Ray.'
   realisation: 2018
   durée: '50 secondes'
   img_link: 'images/quad_short.png'
@@ -22,24 +22,24 @@
   durée: '2.14 minutes'
   img_link: 'images/alyen11.gif'
   video_link: 'https://www.youtube.com/watch?v=adh9y6P6R-o'
-- title : "Bureau"
-  slug: 'Un personnage quitte le monde virtuel.'
-  realisation: 2003
-  durée: '18 secondes'
-  img_link: 'images/bureau1231.jpg'
-  video_link: '../shorts/bureau.mp4'
 - title : 'kilogo'
-  slug: 'Teaser agence de communication.'
+  slug: 'Un teaser pour une agence de communication.'
   realisation: 2004
   durée: '12 secondes'
   img_link: 'images/kilo.gif'
   video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
 - title : "From sky"
-  slug: 'Intro basée sur 1 idée de présenter différents métiers <br>au plus jeunes grâce au film animé.'
+  slug: 'Intro de mini série de présentation de corps de métiers <br>au plus jeunes grâce au film animé.'
   realisation: 2004
   durée: '20 secondes'
   img_link: 'images/fromsky1.jpg'
   video_link: '../shorts/fromsky.mp4'
+- title : "Bureau"
+  slug: 'Un personnage quitte le monde virtuel en 2003.'
+  realisation: 2003
+  durée: '18 secondes'
+  img_link: 'images/bureau1231.jpg'
+  video_link: '../shorts/bureau.mp4'
 
 # - title : "Jardin"
 #   slug: 'Ne jouez pas au foot près de la fenêtre ! <br> Test de collision et de corps souples donnant lieux à une petite animation.'
