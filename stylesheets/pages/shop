@@ -1,13 +1,13 @@
 /*
 SassC::SyntaxError: Error: Undefined variable: "$headers-font".
-        on line 57 of source/stylesheets/pages/shop.scss
+        on line 63 of source/stylesheets/pages/shop.scss
 >>   font-family: $headers-font;
 
    ---------------^
 
 
 Backtrace:
-/home/cleoron/code/backseo/portfolio3/source/stylesheets/pages/shop.scss:57
+/home/cleoron/code/backseo/portfolio3/source/stylesheets/pages/shop.scss:63
 /home/cleoron/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/sassc-1.12.0/lib/sassc/engine.rb:47:in `render'
 /home/cleoron/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /home/cleoron/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
@@ -101,4 +101,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$headers-font\".\A         on line 57 of source/stylesheets/pages/shop.scss\A >>   font-family: $headers-font;\A \A    ---------------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$headers-font\".\A         on line 63 of source/stylesheets/pages/shop.scss\A >>   font-family: $headers-font;\A \A    ---------------^\A "; }

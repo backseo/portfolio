@@ -1,13 +1,13 @@
 /*
 SassC::SyntaxError: Error: Undefined variable: "$body-font".
-        on line 43 of source/stylesheets/pages/dev.scss
+        on line 48 of source/stylesheets/pages/dev.scss
 >>   font-family: $body-font;
 
    ---------------^
 
 
 Backtrace:
-/home/cleoron/code/backseo/portfolio3/source/stylesheets/pages/dev.scss:43
+/home/cleoron/code/backseo/portfolio3/source/stylesheets/pages/dev.scss:48
 /home/cleoron/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/sassc-1.12.0/lib/sassc/engine.rb:47:in `render'
 /home/cleoron/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /home/cleoron/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
@@ -101,4 +101,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$body-font\".\A         on line 43 of source/stylesheets/pages/dev.scss\A >>   font-family: $body-font;\A \A    ---------------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$body-font\".\A         on line 48 of source/stylesheets/pages/dev.scss\A >>   font-family: $body-font;\A \A    ---------------^\A "; }
