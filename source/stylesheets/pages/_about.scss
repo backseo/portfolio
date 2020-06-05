@@ -65,11 +65,16 @@
   max-width: 460px;
   border: 1px black solid;
   border-radius: 3px;
-  margin: 0.2em 0.2em;
+  margin: 2em 2em;
   padding: 1em 1em;
   background: $gray-gradient;
   text-align: justify;
   text-indent: 2rem;
+}
+
+.bloc-text p {
+  margin: 1em 1em;
+  transform: scaleY(1.2);
 }
 
 .bloc-text-fw {

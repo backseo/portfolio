@@ -1,8 +1,14 @@
 .shop-banner {
   margin-top: 18px;
-  height: 150px;
+  height: 180px;
   background-color: #F4F4F4;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.shop-banner h2 {
+  text-align: center;
 }
 
 .shop-Productsframe {
@@ -62,7 +68,7 @@
 }
 
 .productlink:hover {
-  background: green;
+  background: orange;
   width: 150px;
   height: 38px;
   line-height: 30px; cursor: pointer;
@@ -71,4 +77,11 @@
   border-radius: 4px;
   align: center;
   border: 1px black solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .shop-banner h2 {
+    transform: scale(0.7);
+  }
+
 }
