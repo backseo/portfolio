@@ -1,0 +1,74 @@
+.shop-banner {
+  margin-top: 18px;
+  height: 150px;
+  background-color: #F4F4F4;
+  display: flex;
+}
+
+.shop-Productsframe {
+  position: relative;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 4px;
+}
+
+.card {
+  width: 260px;
+  background-color: orange;
+  border-radius: 3px;
+  box-shadow: 1 1 1 1 black;
+  padding: 8px;
+  margin-bottom: 16px;
+  background-origin: center center;
+  transition: ease-in-out 100ms;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: orange;
+  border-radius: 4px;
+  box-shadow: 2 2 2 2 black;
+  padding: 5px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  background-color: #777;
+  transition: all ease-in-out 100ms;
+}
+
+.price {
+  position: relative;
+}
+
+.productlink {
+  margin-top: 5px;
+  background:white;
+  width: 150px;
+  height: 38px;
+  line-height: 30px;
+  text-align: center;
+  font-family: $headers-font;
+  border-radius: 4px;
+  align: center;
+  border: 1px black solid;
+  cursor: pointer;
+}
+
+.productlink:hover {
+  background: green;
+  width: 150px;
+  height: 38px;
+  line-height: 30px; cursor: pointer;
+  text-align: center;
+  font-family: $headers-font;
+  border-radius: 4px;
+  align: center;
+  border: 1px black solid;
+}
