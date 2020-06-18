@@ -1,0 +1,13 @@
+.assistance-frame {
+  background-color: gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .assist-texte h2 {
+    transform: scale(0.8);
+  }
+}
