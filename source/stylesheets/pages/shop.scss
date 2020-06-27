@@ -1,5 +1,5 @@
 .shop-banner {
-  margin-top: 18px;
+  margin: 18px 5px 10px 5px;
   height: 130px;
   background-color: #F4F4F4;
   display: flex;
@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  transition: all ease-in-out 300ms;
 }
 
 .card:hover {
@@ -44,6 +45,31 @@
   opacity: 0.8;
   background-color: #777;
   transition: all ease-in-out 100ms;
+}
+
+.card::before {
+  position: absolute;
+  content: "En savoir +";
+  font-family: $headers-font;
+  font-size: 2rem;
+  bottom: -20px;
+  left: 70px;
+  transition: all ease-in-out 300ms;
+  color: black;
+  opacity: 0;
+  padding: 0px 12px;
+  margin: 0px 8px;
+  border-radius: 3px;
+}
+
+.card:hover::before {
+  position: absolute;
+  content: "En savoir +";
+  opacity: 1;
+  bottom: 130px;
+  transition: all ease-in-out 200ms;
+  background:rgba(255,255,255,0.9);
+  transform: scale(1.2);
 }
 
 .price {
