@@ -1,17 +1,47 @@
+- title: 'Overlay de streaming'
+  slug: '8 Overlays de webcam colorés et animés'
+  realisation: 2021
+  durée: '15 secondes'
+  img_link: 'images/8camanim.jpg'
+  video_link: 'https://youtu.be/DxaItVAvGcc'
+- title: 'Alertes Twitch Papillons'
+  slug: 'Alertes Twitch Personnalisées originales'
+  realisation: 2021
+  durée: '15 secondes'
+  img_link: 'images/butterfly.jpg'
+  video_link: 'https://youtu.be/buWNq99NSMg'
+- title: 'Corona Shooting Contest - Animation 2D'
+  slug: 'Animation 2D réalisée pour l"association Européens Sans Frontières'
+  realisation: 2020
+  durée: '1.42 minutes'
+  img_link: 'images/CSC - miniature1.png'
+  video_link: 'https://www.youtube.com/watch?v=Z7ow3twp3n0'
 - title: 'Quad 2018'
   slug: 'Animation de quad et son pilote. Character rigging. Rendu Mental Ray.'
   realisation: 2018
   durée: '50 secondes'
   img_link: 'images/quad_short.png'
   video_link: 'https://www.youtube.com/watch?v=r_YEqpc8MLw'
+- title: 'Streaming Overlays Pack Purple'
+  slug: 'Pack complet de streaming'
+  realisation: 2021
+  durée: '45 secondes'
+  img_link: 'images/packpurple.jpg'
+  video_link: 'https://youtu.be/7lRYpdQi3N8'
 - title : 'Babymech'
-  slug: "Animation d'un Mecha biped avec gestion de layers - Compositing  : After Effect."
+  slug: "Animation d'un Mech unipersonnel biped avec gestion de layers d'animation- Compositing  : After Effect."
   realisation: 2016
   durée: '27 secondes'
   img_link: 'images/bbm1.gif'
   video_link: 'https://www.youtube.com/watch?v=BB9Ga0CEgKQ'
+- title: 'Alertes Twitch MedicStaff'
+  slug: 'Alertes de streaming personnalisées'
+  realisation: 2021
+  durée: '15 secondes'
+  img_link: 'images/medicstaff.jpg'
+  video_link: 'https://youtu.be/buWNq99NSMg'
 - title : "Mr Propre"
-  slug: 'Process animation course de personnage avec CAT (Autodesk).'
+  slug: "Process d'animation de course d'un personnage avec CAT (Autodesk)."
   realisation: 2012
   durée: '09 secondes'
   img_link: 'images/mrpropre.gif'
